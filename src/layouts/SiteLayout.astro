@@ -1,10 +1,10 @@
 ---
 import '../styles/global.css';
 import { markActiveNavigation } from '../lib/navigation.mjs';
-import { renderPage,site,schedule,notices,materials } from '../lib/content';
+import { renderPage,site,schedule,notices,materials,homeCardTemplates } from '../lib/content';
 import { renderNotices,escapeHtml } from '../lib/calendar.mjs';
 const {title,slug}=Astro.props;
-const runtime=JSON.stringify({schedule,notices}).replace(/</g,'\\u003c');
+const runtime=JSON.stringify({schedule,notices,homeCardTemplates:slug==='home'?homeCardTemplates:{}}).replace(/</g,'\\u003c');
 const script=['programacao','como-chegar','estudo'].includes(slug)?`/scripts/${slug}.js`:null;
 const fullAddress=`${site.address} — ${site.district} — ${site.city}/${site.state} — CEP ${site.postalCode}`;
 ---
@@ -21,9 +21,9 @@ const fullAddress=`${site.address} — ${site.district} — ${site.city}/${site.
 <script id="cecop-content" type="application/json" set:html={runtime}/>
 {script&&<script is:inline src={script} defer></script>}
 <script>
-import {renderCalendar,renderNotices} from '../lib/calendar.mjs';
+import {renderCalendar,renderNotices,renderHomeCard} from '../lib/calendar.mjs';
 const data=JSON.parse(document.getElementById('cecop-content')!.textContent!);
-function refresh(){document.querySelectorAll('[data-calendar]').forEach(el=>{const wrapper=document.createElement('div');wrapper.innerHTML=renderCalendar(data.schedule);el.innerHTML=wrapper.firstElementChild!.innerHTML;});document.querySelectorAll('[data-notices]').forEach(el=>{el.innerHTML=renderNotices(data.notices);});}
+function refresh(){document.querySelectorAll<HTMLElement>('[data-home-calendar]').forEach(el=>{const id=el.dataset.homeCalendar;const markup=renderHomeCard(data.homeCardTemplates[id!],data.schedule.appointments.find(a=>a.id===id),data.schedule.exceptions);const normalized=document.createElement('template');normalized.innerHTML=markup;if(el.innerHTML!==normalized.innerHTML)el.innerHTML=normalized.innerHTML;});document.querySelectorAll('[data-calendar]').forEach(el=>{const wrapper=document.createElement('div');wrapper.innerHTML=renderCalendar(data.schedule);el.innerHTML=wrapper.firstElementChild!.innerHTML;});document.querySelectorAll('[data-notices]').forEach(el=>{el.innerHTML=renderNotices(data.notices);});}
 refresh();setInterval(refresh,60000);
 const button=document.querySelector<HTMLButtonElement>('[data-menu-toggle]');const menu=document.getElementById('mobile-nav');
 function closeMenu(){if(menu)menu.hidden=true;button?.setAttribute('aria-expanded','false');button?.setAttribute('aria-label','Abrir menu de navegação');}

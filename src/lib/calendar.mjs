@@ -31,3 +31,14 @@ export function activeNotices(notices, now = new Date()) {
 export function renderNotices(notices,now=new Date()) {
  return activeNotices(notices,now).map(n=>`<aside class="rounded-lg p-5 mb-4 border border-outline-variant bg-secondary-container text-on-secondary-container"><h2 class="font-bold">${escapeHtml(n.title)}</h2><p>${escapeHtml(n.message)}</p></aside>`).join('');
 }
+
+// The two editable cards keep the exact FINAL artboard structure.
+export function renderHomeCard(template, appointment, exceptions, now = new Date()) {
+ if(!appointment?.active)return '';
+ const event=nextOccurrence(appointment,exceptions,now);
+ const fields={...event,weekday:['Domingo','Segunda-Feira','Terça-Feira','Quarta-Feira','Quinta-Feira','Sexta-Feira','Sábado'][event.weekday],time:event.time.replace(':','h'),feature0:event.features?.[0]||'',feature1:event.features?.[1]||''};
+ let markup=template.replace(/\[\[field:([^\]]+)\]\]/g,(_,key)=>escapeHtml(fields[key] ?? ''));
+ const formatted=new Date(event.date+'T12:00:00Z').toLocaleDateString('pt-BR',{timeZone:'UTC',day:'2-digit',month:'2-digit'});
+ const exception=event.special?`<p class="rounded-xl p-4 ${event.cancelled?'bg-error-container text-on-error-container':'bg-secondary-container text-on-secondary-container'}" role="status"><strong>${event.cancelled?'Atendimento cancelado':'Horário especial'} — ${escapeHtml(formatted)}</strong><br>${escapeHtml(event.reason)}</p>`:'';
+ return markup.replace('[[exception]]',exception).replace('[[timebox-hidden]]',event.cancelled?'hidden':'');
+}

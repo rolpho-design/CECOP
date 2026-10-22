@@ -106,6 +106,17 @@ collections:
         label: Ativo
         widget: boolean
         default: true
+      - name: features
+        label: Orientações resumidas no card da Home
+        widget: list
+        allow_add: false
+        min: 2
+        max: 2
+        required: false
+        field:
+          name: text
+          label: Orientação
+          widget: string
       summary: '{{fields.title}}'
     - name: exceptions
       label: Cancelamentos e horários especiais

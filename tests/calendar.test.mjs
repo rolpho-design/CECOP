@@ -27,3 +27,13 @@ test('conteúdo editorial não é executado como HTML',()=>{
  const out=renderCalendar({appointments:[{...appointment,title:'<script>alert(1)</script>'}],exceptions:[]},new Date('2026-10-22T12:00Z'));
  assert.doesNotMatch(out,/<script>/);assert.match(out,/&lt;script&gt;/);
 });
+
+test('card da Home preserva a caixa de horários e destaca cancelamento por data',async()=>{
+ const {readFileSync}=await import('node:fs');
+ const {renderHomeCard}=await import('../src/lib/calendar.mjs');
+ const template=readFileSync(new URL('../src/templates/home-card-quinta.html',import.meta.url),'utf8');
+ const normal=renderHomeCard(template,appointment,[],new Date('2026-10-22T12:00Z'));
+ assert.match(normal,/16h30/);assert.doesNotMatch(normal,/data-timebox hidden/);assert.doesNotMatch(normal,/\[\[/);
+ const cancelled=renderHomeCard(template,appointment,[{appointmentId:'quinta',date:'2026-10-22',status:'cancelled',message:'Sem atendimento'}],new Date('2026-10-22T12:00Z'));
+ assert.match(cancelled,/Atendimento cancelado/);assert.match(cancelled,/data-timebox hidden/);
+});
