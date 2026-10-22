@@ -1,0 +1,44 @@
+name: Import existing CECOP books
+on:
+  push:
+    branches: [feat/astro-decap-integration]
+    paths:
+      - scripts/import_books.py
+      - docs/books-sources.json
+      - .github/workflows/import-books.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: import-books-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  import-books:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Import original PDFs and verify SHA-256
+        run: python scripts/import_books.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - name: Commit verified book files to this branch
+        run: |
+          git add public/wp-content/uploads/2016/01/
+          if git diff --cached --quiet; then
+            echo "Books already imported."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "content: preserve five original CECOP PDF books"
+          git push origin HEAD:${{ github.ref_name }}

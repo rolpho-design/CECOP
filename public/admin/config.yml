@@ -48,6 +48,17 @@ collections:
     - name: contentVerified
       label: Dados revisados pela instituição
       widget: boolean
+    - name: phoneAvailable
+      label: A casa possui telefone
+      widget: boolean
+      default: false
+    - name: hasBranches
+      label: A casa possui filiais
+      widget: boolean
+      default: false
+    - name: instagram
+      label: Instagram oficial
+      widget: string
   - name: programacao
     label: Atendimentos e exceções
     file: src/data/schedule.json
@@ -199,6 +210,9 @@ collections:
       label: Materiais
       widget: list
       fields:
+      - name: id
+        label: Identificador
+        widget: hidden
       - name: title
         label: Título
         widget: string
@@ -214,6 +228,48 @@ collections:
           config:
             multiple: false
       summary: '{{fields.title}}'
+      hint: Os cinco livros estão ligados aos cards da página Estudos e materiais.
+        Preserve seus identificadores.
+  - name: tarde-do-pastel
+    label: Tarde do Pastel — próxima edição
+    file: src/data/event.json
+    fields:
+    - name: active
+      label: Exibir na Home
+      widget: boolean
+      default: true
+    - name: title
+      label: Título
+      widget: string
+    - name: description
+      label: Descrição
+      widget: text
+    - name: nextDate
+      label: Data da próxima edição
+      widget: datetime
+      format: YYYY-MM-DD
+      date_format: DD/MM/YYYY
+      time_format: false
+      picker_utc: true
+      hint: Atualize a cada edição. Depois dessa data, a Home deixa de anunciar esta
+        edição como futura.
+    - name: startTime
+      label: Horário de início
+      widget: string
+      required: false
+      hint: Opcional. Use HH:MM.
+    - name: endTime
+      label: Horário de término
+      widget: string
+      required: false
+      hint: Opcional. Use HH:MM.
+    - name: price
+      label: Preço do pastel (R$)
+      widget: number
+      value_type: float
+      min: 0
+      required: false
+      hint: Opcional. Preencha somente após confirmar o preço da edição.
 - name: paginas
   label: Textos e imagens das páginas
   files:
@@ -350,7 +406,7 @@ collections:
       collapsed: true
       summary: '{{fields.label}}'
   - name: como-chegar
-    label: Como Chegar
+    label: Contato e localização
     file: src/data/pages/como-chegar.json
     fields:
     - name: title
@@ -394,7 +450,7 @@ collections:
       collapsed: true
       summary: '{{fields.label}}'
   - name: estudo
-    label: Estudo & Obras
+    label: Estudos e materiais
     file: src/data/pages/estudo.json
     fields:
     - name: title

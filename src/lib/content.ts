@@ -4,18 +4,23 @@ import rawSite from '../data/site.json';
 import rawSchedule from '../data/schedule.json';
 import rawNotices from '../data/notices.json';
 import rawMaterials from '../data/materials.json';
+import rawEvent from '../data/event.json';
+import {renderCommunityEvent} from './community-event.mjs';
 const time=z.string().regex(/^([01]\d|2[0-3]):[0-5]\d$/);
 const date=z.string().regex(/^\d{4}-\d{2}-\d{2}$/).refine(v=>{const d=new Date(v+'T12:00:00Z');return !isNaN(d.valueOf())&&d.toISOString().slice(0,10)===v},'Data inválida');
 const id=z.string().regex(/^[a-z0-9-]+$/);
 const safeUrl=z.string().refine(v=>/^\/(?!\/)/.test(v)||/^https:\/\//.test(v),'Use um caminho local ou HTTPS');
-export const site=z.object({name:z.string(),shortName:z.string(),address:z.string(),district:z.string(),city:z.string(),state:z.string(),postalCode:z.string(),email:z.email(),cnpj:z.string(),contentVerified:z.boolean()}).parse(rawSite);
+export const site=z.object({name:z.string(),shortName:z.string(),address:z.string(),district:z.string(),city:z.string(),state:z.string(),postalCode:z.string(),email:z.email(),cnpj:z.string(),contentVerified:z.boolean(),phoneAvailable:z.boolean(),hasBranches:z.boolean(),instagram:safeUrl}).parse(rawSite);
 export const scheduleSchema=z.object({appointments:z.array(z.object({id,title:z.string().min(1),weekday:z.number().int().min(0).max(6),time,tickets:z.string(),capacity:z.string(),description:z.string(),instructions:z.string(),features:z.array(z.string()).length(2).optional(),active:z.boolean()})),exceptions:z.array(z.object({appointmentId:id,date,status:z.enum(['cancelled','special']),time:time.optional(),message:z.string().min(1)}))}).superRefine((data,ctx)=>{
  const ids=data.appointments.map(a=>a.id);if(new Set(ids).size!==ids.length)ctx.addIssue({code:'custom',message:'IDs de atendimento duplicados'});
  const keys=new Set();for(const e of data.exceptions){if(!ids.includes(e.appointmentId))ctx.addIssue({code:'custom',message:'Atendimento da exceção não existe'});const key=e.appointmentId+e.date;if(keys.has(key))ctx.addIssue({code:'custom',message:'Exceção duplicada'});keys.add(key);if(e.status==='special'&&!e.time)ctx.addIssue({code:'custom',message:'Informe o horário especial'});const a=data.appointments.find(a=>a.id===e.appointmentId);if(a&&new Date(e.date+'T12:00:00Z').getUTCDay()!==a.weekday)ctx.addIssue({code:'custom',message:'A data da exceção deve corresponder ao dia do atendimento'});}
 });
 export const schedule=scheduleSchema.parse(rawSchedule);
 export const notices=z.object({items:z.array(z.object({title:z.string().min(1),message:z.string().min(1),active:z.boolean(),start:date.optional(),end:date.optional()}).refine(n=>!n.start||!n.end||n.start<=n.end,'O fim deve ser posterior ao início'))}).parse(rawNotices);
-export const materials=z.object({items:z.array(z.object({title:z.string().min(1),description:z.string(),file:safeUrl}))}).parse(rawMaterials);
+export const materials=z.object({items:z.array(z.object({id,title:z.string().min(1),description:z.string(),file:safeUrl}))}).parse(rawMaterials);
+export const communityEvent=z.object({active:z.boolean(),title:z.string().min(1),description:z.string(),nextDate:date,startTime:z.preprocess(v=>v===''?null:v,time.nullish()),endTime:z.preprocess(v=>v===''?null:v,time.nullish()),price:z.number().min(0).nullish()}).refine(e=>!e.endTime||!!e.startTime,'Informe o início quando houver término').refine(e=>!e.startTime||!e.endTime||e.startTime<e.endTime,'Término deve ser posterior ao início').parse(rawEvent);
+function institutionalFacts(){return `<div class="flex flex-wrap gap-3 text-caption"><span class="rounded-full bg-secondary-fixed text-on-secondary-fixed px-4 py-2">${site.phoneAvailable?'Consulte os canais de contato':'A casa não possui telefone'}</span><span class="rounded-full bg-secondary-fixed text-on-secondary-fixed px-4 py-2">${site.hasBranches?'Consulte nossos endereços':'Não possuímos filiais. O CECOP é uma casa única.'}</span></div>`;}
+function contactSection(){return `<div class="rounded-lg bg-surface-container-lowest border border-outline-variant/40 p-7 lg:p-9"><h2 class="font-headline-md text-headline-md text-primary mb-4">Fale com a casa</h2><p class="text-on-surface-variant mb-4">Consulte a <a class="underline text-primary" href="/programacao/">Programação</a> para informações sobre os atendimentos. Para outras dúvidas, entre em contato por e-mail. As mensagens são respondidas pela administração da casa.</p><div class="flex flex-wrap gap-3 mb-6"><a class="inline-flex rounded-full bg-primary text-on-primary px-5 py-3 font-button text-button" href="mailto:${escapeHtml(site.email)}">${escapeHtml(site.email)}</a><a class="inline-flex rounded-full bg-secondary-fixed text-on-secondary-fixed px-5 py-3 font-button text-button" href="${escapeHtml(site.instagram)}" target="_blank" rel="noopener noreferrer">Instagram do CECOP</a></div>${institutionalFacts()}</div>`;}
 const pageSchema=z.object({title:z.string(),texts:z.array(z.object({id,label:z.string(),text:z.string()})),images:z.array(z.object({id,label:z.string(),src:safeUrl,alt:z.string()}))});
 const templates=import.meta.glob('../templates/*.html',{query:'?raw',import:'default',eager:true}) as Record<string,string>;
 const pages=import.meta.glob('../data/pages/*.json',{import:'default',eager:true});
@@ -29,5 +34,7 @@ export function renderPage(key:string) {
  template=template.replace('[[calendar]]',renderCalendar(schedule)).replace('[[footer-schedule]]',schedule.appointments.filter(a=>a.active).map(a=>`<p class="text-sm mb-2"><a class="underline" href="/programacao/">${escapeHtml(a.title)} — ${escapeHtml(a.time)}</a></p>`).join(''));
  const address=[site.address,site.district,site.city,site.state].join(', ');
  template=template.replace(/href="https:\/\/(?:www\.)?(?:maps\.google\.com|google\.com\/maps)[^"]*"/g,`href="https://www.google.com/maps/search/?api=1&amp;query=${encodeURIComponent(address)}"`);
+ template=template.replace(/\[\[material:([^:]+):(file|title|description)\]\]/g,(_,id,field)=>{const item=materials.items.find(b=>b.id===id);if(!item)throw new Error('Livro ausente: '+id);return escapeHtml(item[field as 'file'|'title'|'description']);});
+ template=template.replaceAll('[[institutional-facts]]',institutionalFacts()).replace('[[contact-section]]',contactSection()).replace('[[community-event]]',renderCommunityEvent(communityEvent));
  return template;
 }

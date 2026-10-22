@@ -1,3 +1,34 @@
 {
-  "items": []
+  "items": [
+    {
+      "title": "O Livro dos Espíritos",
+      "description": "Allan Kardec — PDF gratuito.",
+      "file": "/wp-content/uploads/2016/01/OLivrodosEspiritos.pdf",
+      "id": "livro-dos-espiritos"
+    },
+    {
+      "title": "O Livro dos Médiuns",
+      "description": "Allan Kardec — PDF gratuito.",
+      "file": "/wp-content/uploads/2016/01/OLivrodosMediuns.pdf",
+      "id": "livro-dos-mediuns"
+    },
+    {
+      "title": "O Evangelho Segundo o Espiritismo",
+      "description": "Allan Kardec — PDF gratuito.",
+      "file": "/wp-content/uploads/2016/01/OEvangelhoSegundooEspiritismo.pdf",
+      "id": "evangelho-segundo-espiritismo"
+    },
+    {
+      "title": "A Gênese",
+      "description": "Allan Kardec — PDF gratuito.",
+      "file": "/wp-content/uploads/2016/01/A-genese_Guillon.pdf",
+      "id": "a-genese"
+    },
+    {
+      "title": "O Céu e o Inferno",
+      "description": "Allan Kardec — PDF gratuito.",
+      "file": "/wp-content/uploads/2016/01/o-ceu-e-o-inferno.pdf",
+      "id": "ceu-e-inferno"
+    }
+  ]
 }

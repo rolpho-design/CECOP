@@ -14,7 +14,7 @@
     {
       "id": "texto-003",
       "label": "Home",
-      "text": "Home"
+      "text": "Início"
     },
     {
       "id": "texto-004",
@@ -29,17 +29,17 @@
     {
       "id": "texto-006",
       "label": "Como Chegar",
-      "text": "Como Chegar"
+      "text": "Contato e localização"
     },
     {
       "id": "texto-007",
       "label": "Estudo & Obras",
-      "text": "Estudo & Obras"
+      "text": "Estudos e materiais"
     },
     {
       "id": "texto-008",
       "label": "Home",
-      "text": "Home"
+      "text": "Início"
     },
     {
       "id": "texto-009",
@@ -54,12 +54,12 @@
     {
       "id": "texto-011",
       "label": "Como Chegar",
-      "text": "Como Chegar"
+      "text": "Contato e localização"
     },
     {
       "id": "texto-012",
       "label": "Estudo & Obras",
-      "text": "Estudo & Obras"
+      "text": "Estudos e materiais"
     }
   ],
   "images": [

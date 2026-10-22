@@ -4,7 +4,7 @@ Primeira integração das cinco telas do Stitch com Astro e Decap CMS. Código e
 
 ## Estado desta entrega
 
-- Rotas: `/`, `/programacao/`, `/a-casa/`, `/como-chegar/`, `/estudo/`.
+- Rotas: `/`, `/programacao/`, `/a-casa/`, `/contato-e-localizacao/`, `/estudo/`.
 - Layout original preservado em templates, com cabeçalho e rodapé compartilhados.
 - Tailwind compilado no build; sem o script de desenvolvimento do CDN.
 - Textos/imagens em `src/data/pages/*.json`. Conteúdo do editor é escapado; não há editor de HTML.
@@ -13,7 +13,7 @@ Primeira integração das cinco telas do Stitch com Astro e Decap CMS. Código e
 - Avisos e próximas ocorrências são atualizados no navegador a cada minuto, sem depender de rebuild para a passagem do tempo. Novas edições ainda exigem um deploy.
 - Painel `/admin/` pronto para teste local. **OAuth em produção ainda não configurado.**
 - Dados e afirmações importados dos layouts **não foram confirmados pela instituição**. Revisar CEP, endereço, CNPJ, horários, capacidade, transporte, acessibilidade física e orientações antes da publicação.
-- Os PDFs não foram fornecidos: links de download sem arquivo foram desativados, e a coleção Materiais permite cadastrar os arquivos reais.
+- Cinco PDFs migrados do site atual e ligados aos cards de Estudos e materiais. Os caminhos antigos em `/wp-content/uploads/2016/01/` foram preservados. Os PDFs originais foram preservados, incluindo as 416 páginas de A Gênese. Consulte `docs/books-sources.json`.
 - A configuração de domínio aponta para `cecop.org.br`, mas nenhum DNS ou serviço de hospedagem foi alterado.
 
 ## Executar e validar
@@ -78,3 +78,15 @@ Não usa Netlify Git Gateway. GitHub é armazenamento/versionamento; não implic
 - Simular conteúdo inválido e falha de build; confirmar que o deploy anterior permanece acessível e que o responsável recebe o alerta do host.
 
 As imagens extraídas estão em `public/uploads`; eventuais URLs externas restantes devem ser revisadas. Fontes e ícones ainda são carregados do Google Fonts. A conformidade WCAG e a fidelidade visual final dependem de revisão manual em homologação.
+
+## Conteúdo confirmado em 22/10/2026
+
+- Quinta-feira: distribuição de fichas das 15h45 às 19h45.
+- Próxima Tarde do Pastel: 09/11/2026. O evento é periódico e contribui para a manutenção da casa. Horário e preço da nova edição ficaram opcionais, sem reaproveitar os valores da edição passada.
+- A casa não possui telefone nem filiais; os dois avisos aparecem na Home, no contato e no rodapé.
+- Menu: Início, Programação, A Casa, Estudos e materiais, Contato e localização.
+- `/como-chegar/` redireciona para `/contato-e-localizacao/`. A chave de conteúdo e o script `como-chegar` foram preservados internamente para manter compatibilidade com o CMS.
+
+### Atualizar a Tarde do Pastel
+
+No CMS: Programação e informações → Tarde do Pastel — próxima edição. Edite data, descrição e, quando confirmados, horário/preço. Não há frequência automática presumida. Após a data, a Home mantém o bloco de apoio à casa, mas troca a edição passada por “A próxima data será divulgada em breve”.
