@@ -1,0 +1,27 @@
+{
+  "appointments": [
+    {
+      "id": "terca",
+      "title": "Saúde, Espiritualidade & Passes",
+      "weekday": 2,
+      "time": "19:30",
+      "tickets": "Das 19h00 às 20h30",
+      "capacity": "120 pessoas por ordem de chegada",
+      "description": "Reunião pública com explanação evangélica e passes.",
+      "instructions": "Consulte as orientações para a primeira visita.",
+      "active": true
+    },
+    {
+      "id": "quinta",
+      "title": "Tratamento & Amparo Espiritual",
+      "weekday": 4,
+      "time": "16:30",
+      "tickets": "Das 15h45 às 19h45",
+      "capacity": "450 pessoas por ordem de chegada",
+      "description": "Atendimento espiritual com passes específicos e preces.",
+      "instructions": "Consulte as orientações para a primeira visita.",
+      "active": true
+    }
+  ],
+  "exceptions": []
+}

@@ -1,0 +1,603 @@
+{
+  "title": "estudo",
+  "texts": [
+    {
+      "id": "texto-001",
+      "label": "Doutrina Espírita & Conhecimento",
+      "text": "Doutrina Espírita & Conhecimento"
+    },
+    {
+      "id": "texto-002",
+      "label": "•",
+      "text": "•"
+    },
+    {
+      "id": "texto-003",
+      "label": "Acervo Doutrinário",
+      "text": "Acervo Doutrinário"
+    },
+    {
+      "id": "texto-004",
+      "label": "Estudo e Aprofundamento",
+      "text": "Estudo e Aprofundamento"
+    },
+    {
+      "id": "texto-005",
+      "label": "Material de apoio, obras fundamentais e orientações para quem deseja conhecer mais sobre o",
+      "text": "Material de apoio, obras fundamentais e orientações para quem deseja conhecer mais sobre os ensinamentos de Jesus sob a luz consoladora da Doutrina Espírita. Allan Kardec organizou o conhecimento para que a fé pudesse dialogar harmonicamente com a razão."
+    },
+    {
+      "id": "texto-006",
+      "label": "Estudo Aberto e Gratuito",
+      "text": "Estudo Aberto e Gratuito"
+    },
+    {
+      "id": "texto-007",
+      "label": "Obras em Domínio Público",
+      "text": "Obras em Domínio Público"
+    },
+    {
+      "id": "texto-008",
+      "label": "Formato PDF Acessível",
+      "text": "Formato PDF Acessível"
+    },
+    {
+      "id": "texto-009",
+      "label": "ESDE aos Sábados 15h",
+      "text": "ESDE aos Sábados 15h"
+    },
+    {
+      "id": "texto-010",
+      "label": "Allan Kardec • 1857 a 1868",
+      "text": "Allan Kardec • 1857 a 1868"
+    },
+    {
+      "id": "texto-011",
+      "label": "Obras Fundamentais da Codificação",
+      "text": "Obras Fundamentais da Codificação"
+    },
+    {
+      "id": "texto-012",
+      "label": "O chamado Pentateuco Kardequiano reúne os cinco pilares doutrinários traduzidos do francês",
+      "text": "O chamado Pentateuco Kardequiano reúne os cinco pilares doutrinários traduzidos do francês pelo pedagogo Hippolyte Léon Denizard Rivail sob a orientação dos Espíritos Superiores."
+    },
+    {
+      "id": "texto-013",
+      "label": "5 Obras Disponíveis",
+      "text": "5 Obras Disponíveis"
+    },
+    {
+      "id": "texto-014",
+      "label": "1857 • Tomo I",
+      "text": "1857 • Tomo I"
+    },
+    {
+      "id": "texto-015",
+      "label": "FILOSOFIA",
+      "text": "FILOSOFIA"
+    },
+    {
+      "id": "texto-016",
+      "label": "O Livro dos Espíritos",
+      "text": "O Livro dos Espíritos"
+    },
+    {
+      "id": "texto-017",
+      "label": "Allan Kardec — 1.019 Perguntas e Respostas",
+      "text": "Allan Kardec — 1.019 Perguntas e Respostas"
+    },
+    {
+      "id": "texto-018",
+      "label": "Marco inicial da Doutrina Espírita. Trata dos princípios da filosofia espírita sobre a imo",
+      "text": "Marco inicial da Doutrina Espírita. Trata dos princípios da filosofia espírita sobre a imortalidade da alma, a natureza dos espíritos e suas relações com os homens, as leis morais, a vida presente, a vida futura e o porvir da Humanidade."
+    },
+    {
+      "id": "texto-019",
+      "label": "Conteúdo Central",
+      "text": "Conteúdo Central"
+    },
+    {
+      "id": "texto-020",
+      "label": "Causa primária de todas as coisas, mundos invisíveis, pluralidade das existências e penas ",
+      "text": "Causa primária de todas as coisas, mundos invisíveis, pluralidade das existências e penas e gozos futuros."
+    },
+    {
+      "id": "texto-021",
+      "label": "Baixar PDF Gratuito",
+      "text": "Arquivo ainda não disponível"
+    },
+    {
+      "id": "texto-022",
+      "label": "Ler Online",
+      "text": "Ler Online"
+    },
+    {
+      "id": "texto-023",
+      "label": "1861 • Tomo II",
+      "text": "1861 • Tomo II"
+    },
+    {
+      "id": "texto-024",
+      "label": "CIÊNCIA",
+      "text": "CIÊNCIA"
+    },
+    {
+      "id": "texto-025",
+      "label": "O Livro dos Médiuns",
+      "text": "O Livro dos Médiuns"
+    },
+    {
+      "id": "texto-026",
+      "label": "Allan Kardec — Guia dos Evocadores e Praticantes",
+      "text": "Allan Kardec — Guia dos Evocadores e Praticantes"
+    },
+    {
+      "id": "texto-027",
+      "label": "Contém o ensino especial dos espíritos sobre a teoria de todos os gêneros de manifestações",
+      "text": "Contém o ensino especial dos espíritos sobre a teoria de todos os gêneros de manifestações, os meios de comunicação com o mundo invisível, o desenvolvimento da mediunidade, as dificuldades e os escolhos que se podem encontrar na prática espírita."
+    },
+    {
+      "id": "texto-028",
+      "label": "Conteúdo Central",
+      "text": "Conteúdo Central"
+    },
+    {
+      "id": "texto-029",
+      "label": "Classificação das faculdades mediúnicas, obsessões, identificação dos espíritos e formação",
+      "text": "Classificação das faculdades mediúnicas, obsessões, identificação dos espíritos e formação de grupos seguros."
+    },
+    {
+      "id": "texto-030",
+      "label": "Baixar PDF Gratuito",
+      "text": "Arquivo ainda não disponível"
+    },
+    {
+      "id": "texto-031",
+      "label": "Ler Online",
+      "text": "Ler Online"
+    },
+    {
+      "id": "texto-032",
+      "label": "1864 • Tomo III",
+      "text": "1864 • Tomo III"
+    },
+    {
+      "id": "texto-033",
+      "label": "MORAL",
+      "text": "MORAL"
+    },
+    {
+      "id": "texto-034",
+      "label": "O Evangelho Segundo o Espiritismo",
+      "text": "O Evangelho Segundo o Espiritismo"
+    },
+    {
+      "id": "texto-035",
+      "label": "Allan Kardec — A Moral Universal do Cristo",
+      "text": "Allan Kardec — A Moral Universal do Cristo"
+    },
+    {
+      "id": "texto-036",
+      "label": "Explicação das máximas morais do Cristo em concordância com a Doutrina Espírita e suas apl",
+      "text": "Explicação das máximas morais do Cristo em concordância com a Doutrina Espírita e suas aplicações às diversas circunstâncias da vida. É o roteiro prático e consolador para a transformação íntima e o cultivo do amor fraternal."
+    },
+    {
+      "id": "texto-037",
+      "label": "Conteúdo Central",
+      "text": "Conteúdo Central"
+    },
+    {
+      "id": "texto-038",
+      "label": "As Bem-aventuranças, a caridade como caminho libertador, o perdão das ofensas e a prece di",
+      "text": "As Bem-aventuranças, a caridade como caminho libertador, o perdão das ofensas e a prece diária."
+    },
+    {
+      "id": "texto-039",
+      "label": "Baixar PDF Gratuito",
+      "text": "Arquivo ainda não disponível"
+    },
+    {
+      "id": "texto-040",
+      "label": "Ler Online",
+      "text": "Ler Online"
+    },
+    {
+      "id": "texto-041",
+      "label": "1865 • Tomo IV",
+      "text": "1865 • Tomo IV"
+    },
+    {
+      "id": "texto-042",
+      "label": "JUSTIÇA",
+      "text": "JUSTIÇA"
+    },
+    {
+      "id": "texto-043",
+      "label": "O Céu e o Inferno",
+      "text": "O Céu e o Inferno"
+    },
+    {
+      "id": "texto-044",
+      "label": "Allan Kardec — A Justiça Divina Segundo o Espiritismo",
+      "text": "Allan Kardec — A Justiça Divina Segundo o Espiritismo"
+    },
+    {
+      "id": "texto-045",
+      "label": "Subintitulado 'A Justiça Divina segundo o Espiritismo'. Realiza exame comparativo das dive",
+      "text": "Subintitulado 'A Justiça Divina segundo o Espiritismo'. Realiza exame comparativo das diversas doutrinas sobre a passagem da vida corporal à espiritual, penas e recompensas futuras, além de conter numerosos depoimentos reais de espíritos felizes, sofredores e em expiação."
+    },
+    {
+      "id": "texto-046",
+      "label": "Conteúdo Central",
+      "text": "Conteúdo Central"
+    },
+    {
+      "id": "texto-047",
+      "label": "Fim do dogma do tormento eterno, lei de causa e efeito e relatos verídicos sobre o desenca",
+      "text": "Fim do dogma do tormento eterno, lei de causa e efeito e relatos verídicos sobre o desencarne."
+    },
+    {
+      "id": "texto-048",
+      "label": "Baixar PDF Gratuito",
+      "text": "Arquivo ainda não disponível"
+    },
+    {
+      "id": "texto-049",
+      "label": "Ler Online",
+      "text": "Ler Online"
+    },
+    {
+      "id": "texto-050",
+      "label": "1868 • Tomo V",
+      "text": "1868 • Tomo V"
+    },
+    {
+      "id": "texto-051",
+      "label": "LEIS",
+      "text": "LEIS"
+    },
+    {
+      "id": "texto-052",
+      "label": "A Gênese",
+      "text": "A Gênese"
+    },
+    {
+      "id": "texto-053",
+      "label": "Allan Kardec — Os Milagres e as Predições",
+      "text": "Allan Kardec — Os Milagres e as Predições"
+    },
+    {
+      "id": "texto-054",
+      "label": "Explica a formação dos mundos, a criação orgânica e espiritual, e demonstra que os fatos r",
+      "text": "Explica a formação dos mundos, a criação orgânica e espiritual, e demonstra que os fatos relatados como milagres nos textos sagrados decorrem de leis naturais, físicas e fluídicas perfeitamente inteligíveis à luz da ciência e da mediunidade."
+    },
+    {
+      "id": "texto-055",
+      "label": "Conteúdo Central",
+      "text": "Conteúdo Central"
+    },
+    {
+      "id": "texto-056",
+      "label": "Fluidos espirituais, curas no Evangelho desmistificadas e a transição planetária para mund",
+      "text": "Fluidos espirituais, curas no Evangelho desmistificadas e a transição planetária para mundo de regeneração."
+    },
+    {
+      "id": "texto-057",
+      "label": "Baixar PDF Gratuito",
+      "text": "Arquivo ainda não disponível"
+    },
+    {
+      "id": "texto-058",
+      "label": "Ler Online",
+      "text": "Ler Online"
+    },
+    {
+      "id": "texto-059",
+      "label": "Estudo Presencial",
+      "text": "Estudo Presencial"
+    },
+    {
+      "id": "texto-060",
+      "label": "CECOP",
+      "text": "CECOP"
+    },
+    {
+      "id": "texto-061",
+      "label": "ESDE — Estudo Sistematizado",
+      "text": "ESDE — Estudo Sistematizado"
+    },
+    {
+      "id": "texto-062",
+      "label": "Todos os Sábados • 15h00 às 16h30",
+      "text": "Todos os Sábados • 15h00 às 16h30"
+    },
+    {
+      "id": "texto-063",
+      "label": "Grupo aberto e contínuo para reflexão em equipe. Não requer conhecimento prévio nem inscri",
+      "text": "Grupo aberto e contínuo para reflexão em equipe. Não requer conhecimento prévio nem inscrição paga. Ideal para quem quer tirar dúvidas, entender o Evangelho no Lar e compartilhar vivências fraternas."
+    },
+    {
+      "id": "texto-064",
+      "label": "Acesso livre a todos os interessados",
+      "text": "Acesso livre a todos os interessados"
+    },
+    {
+      "id": "texto-065",
+      "label": "Material didático fornecido no local",
+      "text": "Material didático fornecido no local"
+    },
+    {
+      "id": "texto-066",
+      "label": "Evangelização infantojuvenil em paralelo",
+      "text": "Evangelização infantojuvenil em paralelo"
+    },
+    {
+      "id": "texto-067",
+      "label": "Consultar Calendário Completo",
+      "text": "Consultar Calendário Completo"
+    },
+    {
+      "id": "texto-068",
+      "label": "Pilares da Vivência Fraterna",
+      "text": "Pilares da Vivência Fraterna"
+    },
+    {
+      "id": "texto-069",
+      "label": "Temas Essenciais para Reflexão",
+      "text": "Temas Essenciais para Reflexão"
+    },
+    {
+      "id": "texto-070",
+      "label": "Conheça os temas mais recorrentes nos atendimentos, palestras e diálogos fraternos realiza",
+      "text": "Conheça os temas mais recorrentes nos atendimentos, palestras e diálogos fraternos realizados em nossa Casa de Oração."
+    },
+    {
+      "id": "texto-071",
+      "label": "Mediunidade com Jesus",
+      "text": "Mediunidade com Jesus"
+    },
+    {
+      "id": "texto-072",
+      "label": "Faculdade Natural a Serviço do Bem",
+      "text": "Faculdade Natural a Serviço do Bem"
+    },
+    {
+      "id": "texto-073",
+      "label": "A mediunidade não é privilégio de eleitos, mas faculdade comum da alma humana. Orientada p",
+      "text": "A mediunidade não é privilégio de eleitos, mas faculdade comum da alma humana. Orientada pelo amor e pelo desinteresse material, transforma-se em valioso instrumento de consolação e esclarecimento."
+    },
+    {
+      "id": "texto-074",
+      "label": "Estudo no Livro dos Médiuns",
+      "text": "Estudo no Livro dos Médiuns"
+    },
+    {
+      "id": "texto-075",
+      "label": "Obsessão & Desobsessão",
+      "text": "Obsessão & Desobsessão"
+    },
+    {
+      "id": "texto-076",
+      "label": "Amparo Fluídico e Renovação Íntima",
+      "text": "Amparo Fluídico e Renovação Íntima"
+    },
+    {
+      "id": "texto-077",
+      "label": "A influência espiritual persistente e perturbadora é superada mediante o esclarecimento mú",
+      "text": "A influência espiritual persistente e perturbadora é superada mediante o esclarecimento mútuo, a prece perseverante, o socorro desobsessivo e a modificação sincera dos próprios pensamentos e atitudes."
+    },
+    {
+      "id": "texto-078",
+      "label": "Cap. 28 de O Livro dos Médiuns",
+      "text": "Cap. 28 de O Livro dos Médiuns"
+    },
+    {
+      "id": "texto-079",
+      "label": "Prece & Fluidificação",
+      "text": "Prece & Fluidificação"
+    },
+    {
+      "id": "texto-080",
+      "label": "Sintonia e Magnetismo Espiritual",
+      "text": "Sintonia e Magnetismo Espiritual"
+    },
+    {
+      "id": "texto-081",
+      "label": "A prece sincera projeta ondas de pensamento que atraem os benfeitores espirituais. Sob ess",
+      "text": "A prece sincera projeta ondas de pensamento que atraem os benfeitores espirituais. Sob essa ação bendita, a água é magnetizada com recursos restauradores para o equilíbrio físico e psíquico."
+    },
+    {
+      "id": "texto-082",
+      "label": "Cap. 27 de O Evangelho",
+      "text": "Cap. 27 de O Evangelho"
+    },
+    {
+      "id": "texto-083",
+      "label": "Caridade & Reforma Íntima",
+      "text": "Caridade & Reforma Íntima"
+    },
+    {
+      "id": "texto-084",
+      "label": "'Fora da Caridade Não Há Salvação'",
+      "text": "'Fora da Caridade Não Há Salvação'"
+    },
+    {
+      "id": "texto-085",
+      "label": "Reconhece-se o verdadeiro cristão pela sua contínua transformação moral e pelos esforços q",
+      "text": "Reconhece-se o verdadeiro cristão pela sua contínua transformação moral e pelos esforços que emprega para domar as más inclinações, praticando a benevolência para com todos e o perdão sincero."
+    },
+    {
+      "id": "texto-086",
+      "label": "Cap. 15 e 17 de O Evangelho",
+      "text": "Cap. 15 e 17 de O Evangelho"
+    },
+    {
+      "id": "texto-087",
+      "label": "Biblioteca Circulante",
+      "text": "Biblioteca Circulante"
+    },
+    {
+      "id": "texto-088",
+      "label": "Empréstimo fraterno de livros espíritas para frequentadores e estudantes cadastrados.",
+      "text": "Empréstimo fraterno de livros espíritas para frequentadores e estudantes cadastrados."
+    },
+    {
+      "id": "texto-089",
+      "label": "Orientações de Estudo",
+      "text": "Orientações de Estudo"
+    },
+    {
+      "id": "texto-090",
+      "label": "Como Iniciar seus Estudos Espíritas no CECOP",
+      "text": "Como Iniciar seus Estudos Espíritas no CECOP"
+    },
+    {
+      "id": "texto-091",
+      "label": "Para quem está dando os primeiros passos, o Espiritismo sugere uma caminhada gradual e ref",
+      "text": "Para quem está dando os primeiros passos, o Espiritismo sugere uma caminhada gradual e reflexiva, sem imposições dogmáticas ou pressa."
+    },
+    {
+      "id": "texto-092",
+      "label": "1",
+      "text": "1"
+    },
+    {
+      "id": "texto-093",
+      "label": "Comece por 'O Livro dos Espíritos' (Introdução e Prolegômenos)",
+      "text": "Comece por 'O Livro dos Espíritos' (Introdução e Prolegômenos)"
+    },
+    {
+      "id": "texto-094",
+      "label": "Compreenda a terminologia básica: o que é espírito, períspirito, fluidos e reencarnação an",
+      "text": "Compreenda a terminologia básica: o que é espírito, períspirito, fluidos e reencarnação antes de mergulhar na fenomenologia mediúnica."
+    },
+    {
+      "id": "texto-095",
+      "label": "2",
+      "text": "2"
+    },
+    {
+      "id": "texto-096",
+      "label": "Assista às Palestras Públicas de Terça-feira (19h30)",
+      "text": "Assista às Palestras Públicas de Terça-feira (19h30)"
+    },
+    {
+      "id": "texto-097",
+      "label": "Nossos palestrantes trazem temas da atualidade e do cotidiano analisados à luz dos ensinam",
+      "text": "Nossos palestrantes trazem temas da atualidade e do cotidiano analisados à luz dos ensinamentos de Jesus e Kardec."
+    },
+    {
+      "id": "texto-098",
+      "label": "3",
+      "text": "3"
+    },
+    {
+      "id": "texto-099",
+      "label": "Integre-se ao ESDE no Sábado à tarde",
+      "text": "Integre-se ao ESDE no Sábado à tarde"
+    },
+    {
+      "id": "texto-100",
+      "label": "O formato em roda de conversa permite tirar dúvidas que surgem durante as leituras individ",
+      "text": "O formato em roda de conversa permite tirar dúvidas que surgem durante as leituras individuais de forma amiga e respeitosa."
+    },
+    {
+      "id": "texto-101",
+      "label": "Acolhimento & Esclarecimento",
+      "text": "Acolhimento & Esclarecimento"
+    },
+    {
+      "id": "texto-102",
+      "label": "Dúvidas Frequentes",
+      "text": "Dúvidas Frequentes"
+    },
+    {
+      "id": "texto-103",
+      "label": "Respostas claras e afetuosas para as principais perguntas de quem visita nossa Casa pela p",
+      "text": "Respostas claras e afetuosas para as principais perguntas de quem visita nossa Casa pela primeira vez."
+    },
+    {
+      "id": "texto-104",
+      "label": "O que é um passe espiritual e como devo me preparar?",
+      "text": "O que é um passe espiritual e como devo me preparar?"
+    },
+    {
+      "id": "texto-105",
+      "label": "O passe espírita é uma transfusão de energias biofísicas e espirituais, transmitida com o ",
+      "text": "O passe espírita é uma transfusão de energias biofísicas e espirituais, transmitida com o concurso dos mentores espirituais através da imposição das mãos. Não é necessário nenhum ritual prévio, toque físico ou desnudamento. Para melhor aproveitamento, recomendamos chegar com 20 minutos de antecedência, manter o silêncio respeitoso, manter o pensamento elevado em oração e evitar refeições pesadas antes da reunião."
+    },
+    {
+      "id": "texto-106",
+      "label": "Preciso seguir a Doutrina Espírita ou alguma religião para ser atendido?",
+      "text": "Preciso seguir a Doutrina Espírita ou alguma religião para ser atendido?"
+    },
+    {
+      "id": "texto-107",
+      "label": "Não. O CECOP é uma casa cristã e caritativa de portas abertas a todas as pessoas, independ",
+      "text": "Não. O CECOP é uma casa cristã e caritativa de portas abertas a todas as pessoas, independentemente de sua fé, credo, orientação religiosa ou descrença. O acolhimento fraterno, as palestras, os passes e os tratamentos são 100% universais e absolutamente gratuitos, seguindo a diretriz de Jesus: 'Dai de graça o que de graça recebestes'."
+    },
+    {
+      "id": "texto-108",
+      "label": "Como funciona o tratamento espiritual de quinta-feira?",
+      "text": "Como funciona o tratamento espiritual de quinta-feira?"
+    },
+    {
+      "id": "texto-109",
+      "label": "A sessão de quinta-feira (16h30) é voltada a preces concentradas, harmonização fluídica e ",
+      "text": "A sessão de quinta-feira (16h30) é voltada a preces concentradas, harmonização fluídica e tratamento para pessoas enfermas no corpo ou na alma. O atendimento é feito por ordem de chegada no portão, sem necessidade de agendamento por telefone. Importante ressaltar que o tratamento espiritual não substitui, em hipótese alguma, as consultas, medicações e tratamentos médicos convencionais."
+    },
+    {
+      "id": "texto-110",
+      "label": "Posso levar garrafa com água para ser fluidificada?",
+      "text": "Posso levar garrafa com água para ser fluidificada?"
+    },
+    {
+      "id": "texto-111",
+      "label": "Sim! Em todas as nossas reuniões públicas (terças, quintas e sábados) há um balcão prepara",
+      "text": "Sim! Em todas as nossas reuniões públicas (terças, quintas e sábados) há um balcão preparado onde os frequentadores podem depositar suas garrafas de água mineral ou filtrada devidamente identificadas com seu nome. Durante os momentos de oração coletiva e irradiação, a equipe espiritual magnetiza a água com fluidos balsâmicos salutares para consumo diário no lar."
+    },
+    {
+      "id": "texto-112",
+      "label": "Qual a programação para quem deseja estudar sistematicamente (ESDE)?",
+      "text": "Qual a programação para quem deseja estudar sistematicamente (ESDE)?"
+    },
+    {
+      "id": "texto-113",
+      "label": "O Estudo Sistematizado da Doutrina Espírita (ESDE) ocorre todos os sábados das 15h00 às 16",
+      "text": "O Estudo Sistematizado da Doutrina Espírita (ESDE) ocorre todos os sábados das 15h00 às 16h30 no salão de estudos da sede Tingui. Os participantes são divididos em turmas conforme afinidade (introdutório, intermediário e avançado). Não há taxas de matrícula nem exames classificatórios; basta chegar no horário e procurar os monitores da recepção."
+    },
+    {
+      "id": "texto-114",
+      "label": "Atendimento Fraterno & Boas-Vindas",
+      "text": "Atendimento Fraterno & Boas-Vindas"
+    },
+    {
+      "id": "texto-115",
+      "label": "Ainda ficou com alguma dúvida sobre os estudos ou reuniões?",
+      "text": "Ainda ficou com alguma dúvida sobre os estudos ou reuniões?"
+    },
+    {
+      "id": "texto-116",
+      "label": "Nossa equipe de recepção e diálogo fraterno está à disposição presencialmente nos dias de ",
+      "text": "Nossa equipe de recepção e diálogo fraterno está à disposição presencialmente nos dias de reuniões públicas para acolher sua família com carinho, esclarecer horários e auxiliar no empréstimo de livros."
+    },
+    {
+      "id": "texto-117",
+      "label": "Fale com a Recepção no Tingui",
+      "text": "Fale com a Recepção no Tingui"
+    },
+    {
+      "id": "texto-118",
+      "label": "Ver Programação Semanal",
+      "text": "Ver Programação Semanal"
+    }
+  ],
+  "images": [
+    {
+      "id": "imagem-01",
+      "label": "Imagem",
+      "src": "/uploads/060d5a896c19e4.webp",
+      "alt": ""
+    }
+  ]
+}

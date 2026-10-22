@@ -1,0 +1,5 @@
+---
+import SiteLayout from "../layouts/SiteLayout.astro";
+import { renderPage } from "../lib/content";
+---
+<SiteLayout title="A Casa" slug="a-casa"><Fragment set:html={renderPage("a-casa")}/></SiteLayout>

@@ -1,0 +1,498 @@
+{
+  "title": "como-chegar",
+  "texts": [
+    {
+      "id": "texto-001",
+      "label": "Localização & Transporte",
+      "text": "Localização & Transporte"
+    },
+    {
+      "id": "texto-002",
+      "label": "Como Chegar",
+      "text": "Como Chegar"
+    },
+    {
+      "id": "texto-003",
+      "label": "Estamos no tranquilo bairro Tingui, em Curitiba. Venha nos visitar com serenidade, seguran",
+      "text": "Estamos no tranquilo bairro Tingui, em Curitiba. Venha nos visitar com serenidade, segurança e acolhimento."
+    },
+    {
+      "id": "texto-004",
+      "label": "Acesso Facilitado",
+      "text": "Acesso Facilitado"
+    },
+    {
+      "id": "texto-005",
+      "label": "Ônibus Direto",
+      "text": "Ônibus Direto"
+    },
+    {
+      "id": "texto-006",
+      "label": "Estacionamento nas Proximidades",
+      "text": "Estacionamento nas Proximidades"
+    },
+    {
+      "id": "texto-007",
+      "label": "Portões Abertos 45 min antes",
+      "text": "Portões Abertos 45 min antes"
+    },
+    {
+      "id": "texto-008",
+      "label": "Lago Bacacheri",
+      "text": "Lago Bacacheri"
+    },
+    {
+      "id": "texto-009",
+      "label": "PARQUE BACACHERI",
+      "text": "PARQUE BACACHERI"
+    },
+    {
+      "id": "texto-010",
+      "label": "R. Joaquim Nabuco",
+      "text": "R. Joaquim Nabuco"
+    },
+    {
+      "id": "texto-011",
+      "label": "R. Fernando de Noronha",
+      "text": "R. Fernando de Noronha"
+    },
+    {
+      "id": "texto-012",
+      "label": "Rua Canadá",
+      "text": "Rua Canadá"
+    },
+    {
+      "id": "texto-013",
+      "label": "AV. ERASTO GAERTNER",
+      "text": "AV. ERASTO GAERTNER"
+    },
+    {
+      "id": "texto-014",
+      "label": "R. CEL. ZACARIAS XAVIER",
+      "text": "R. CEL. ZACARIAS XAVIER"
+    },
+    {
+      "id": "texto-015",
+      "label": "R. Nicarágua",
+      "text": "R. Nicarágua"
+    },
+    {
+      "id": "texto-016",
+      "label": "N",
+      "text": "N"
+    },
+    {
+      "id": "texto-017",
+      "label": "Bairro Tingui • Zona Norte",
+      "text": "Bairro Tingui • Zona Norte"
+    },
+    {
+      "id": "texto-018",
+      "label": "CECOP • Sede",
+      "text": "CECOP • Sede"
+    },
+    {
+      "id": "texto-019",
+      "label": "Coordenadas de Referência",
+      "text": "Coordenadas de Referência"
+    },
+    {
+      "id": "texto-020",
+      "label": "25°23'42.1\"S 49°14'15.8\"W",
+      "text": "25°23'42.1\"S 49°14'15.8\"W"
+    },
+    {
+      "id": "texto-021",
+      "label": "Expandir Mapa Completo",
+      "text": "Expandir Mapa Completo"
+    },
+    {
+      "id": "texto-022",
+      "label": "Sede Oficial",
+      "text": "Sede Oficial"
+    },
+    {
+      "id": "texto-023",
+      "label": "Endereço Completo",
+      "text": "Endereço Completo"
+    },
+    {
+      "id": "texto-024",
+      "label": "Rua Cel. Zacarias Xavier, 88",
+      "text": "Rua Cel. Zacarias Xavier, 88"
+    },
+    {
+      "id": "texto-025",
+      "label": "Tingui — Curitiba / PR",
+      "text": "Tingui — Curitiba / PR"
+    },
+    {
+      "id": "texto-026",
+      "label": "CEP 82620-180",
+      "text": "CEP 82620-180"
+    },
+    {
+      "id": "texto-027",
+      "label": "Ponto de Referência:",
+      "text": "Ponto de Referência:"
+    },
+    {
+      "id": "texto-028",
+      "label": "Próximo à Avenida Erasto Gaertner e ao Parque Bacacheri, em rua residencial asfaltada e tr",
+      "text": "Próximo à Avenida Erasto Gaertner e ao Parque Bacacheri, em rua residencial asfaltada e tranquila."
+    },
+    {
+      "id": "texto-029",
+      "label": "Abrir no Google Maps",
+      "text": "Abrir no Google Maps"
+    },
+    {
+      "id": "texto-030",
+      "label": "Abrir no Waze",
+      "text": "Abrir no Waze"
+    },
+    {
+      "id": "texto-031",
+      "label": "Copiar Endereço Completo",
+      "text": "Copiar Endereço Completo"
+    },
+    {
+      "id": "texto-032",
+      "label": "Integração Urbana URBS",
+      "text": "Integração Urbana URBS"
+    },
+    {
+      "id": "texto-033",
+      "label": "Transporte Público",
+      "text": "Transporte Público"
+    },
+    {
+      "id": "texto-034",
+      "label": "Linhas regulares que conectam os principais terminais de Curitiba até nossa sede no Tingui",
+      "text": "Linhas regulares que conectam os principais terminais de Curitiba até nossa sede no Tingui com caminhadas curtas e seguras."
+    },
+    {
+      "id": "texto-035",
+      "label": "Linhas em operação regular de 2ª a domingo",
+      "text": "Linhas em operação regular de 2ª a domingo"
+    },
+    {
+      "id": "texto-036",
+      "label": "Região Central",
+      "text": "Região Central"
+    },
+    {
+      "id": "texto-037",
+      "label": "Terminal Central",
+      "text": "Terminal Central"
+    },
+    {
+      "id": "texto-038",
+      "label": "Terminal Guadalupe",
+      "text": "Terminal Guadalupe"
+    },
+    {
+      "id": "texto-039",
+      "label": "Ideal para quem parte da região central ou rodoviária de Curitiba.",
+      "text": "Ideal para quem parte da região central ou rodoviária de Curitiba."
+    },
+    {
+      "id": "texto-040",
+      "label": "Linhas que percorrem a",
+      "text": "Linhas que percorrem a"
+    },
+    {
+      "id": "texto-041",
+      "label": "Av. Erasto Gaertner",
+      "text": "Av. Erasto Gaertner"
+    },
+    {
+      "id": "texto-042",
+      "label": "(descer na parada da Rua Cel. Zacarias Xavier).",
+      "text": "(descer na parada da Rua Cel. Zacarias Xavier)."
+    },
+    {
+      "id": "texto-043",
+      "label": "Caminhada plana de apenas",
+      "text": "Caminhada plana de apenas"
+    },
+    {
+      "id": "texto-044",
+      "label": "3 minutos",
+      "text": "3 minutos"
+    },
+    {
+      "id": "texto-045",
+      "label": "da avenida até a entrada da Casa.",
+      "text": "da avenida até a entrada da Casa."
+    },
+    {
+      "id": "texto-046",
+      "label": "Tempo estimado",
+      "text": "Tempo estimado"
+    },
+    {
+      "id": "texto-047",
+      "label": "~20 a 25 min",
+      "text": "~20 a 25 min"
+    },
+    {
+      "id": "texto-048",
+      "label": "Conexão Norte-Sul",
+      "text": "Conexão Norte-Sul"
+    },
+    {
+      "id": "texto-049",
+      "label": "Terminal de Integração",
+      "text": "Terminal de Integração"
+    },
+    {
+      "id": "texto-050",
+      "label": "Terminal Cabral",
+      "text": "Terminal Cabral"
+    },
+    {
+      "id": "texto-051",
+      "label": "Principal hub de transbordo dos eixos Norte, Sul e alimentadores intermunicipais.",
+      "text": "Principal hub de transbordo dos eixos Norte, Sul e alimentadores intermunicipais."
+    },
+    {
+      "id": "texto-052",
+      "label": "Linha",
+      "text": "Linha"
+    },
+    {
+      "id": "texto-053",
+      "label": "Auto Maracanã",
+      "text": "Auto Maracanã"
+    },
+    {
+      "id": "texto-054",
+      "label": "e linhas alimentadoras direcionadas ao eixo do Tingui/Bacacheri.",
+      "text": "e linhas alimentadoras direcionadas ao eixo do Tingui/Bacacheri."
+    },
+    {
+      "id": "texto-055",
+      "label": "Desembarque em ponto com calçadas contínuas e fácil acesso a pé até a sede.",
+      "text": "Desembarque em ponto com calçadas contínuas e fácil acesso a pé até a sede."
+    },
+    {
+      "id": "texto-056",
+      "label": "Tempo estimado",
+      "text": "Tempo estimado"
+    },
+    {
+      "id": "texto-057",
+      "label": "~12 a 18 min",
+      "text": "~12 a 18 min"
+    },
+    {
+      "id": "texto-058",
+      "label": "Região Norte",
+      "text": "Região Norte"
+    },
+    {
+      "id": "texto-059",
+      "label": "Terminal Proximidade",
+      "text": "Terminal Proximidade"
+    },
+    {
+      "id": "texto-060",
+      "label": "Terminal Boa Vista",
+      "text": "Terminal Boa Vista"
+    },
+    {
+      "id": "texto-061",
+      "label": "Opção direta para moradores dos bairros Santa Cândida, Bacacheri, Boa Vista e Atuba.",
+      "text": "Opção direta para moradores dos bairros Santa Cândida, Bacacheri, Boa Vista e Atuba."
+    },
+    {
+      "id": "texto-062",
+      "label": "Linhas diretas:",
+      "text": "Linhas diretas:"
+    },
+    {
+      "id": "texto-063",
+      "label": "Linha Bairro Alto",
+      "text": "Linha Bairro Alto"
+    },
+    {
+      "id": "texto-064",
+      "label": ",",
+      "text": ","
+    },
+    {
+      "id": "texto-065",
+      "label": "Linha Vila Esperança",
+      "text": "Linha Vila Esperança"
+    },
+    {
+      "id": "texto-066",
+      "label": "e",
+      "text": "e"
+    },
+    {
+      "id": "texto-067",
+      "label": "Linha Rio Verde",
+      "text": "Linha Rio Verde"
+    },
+    {
+      "id": "texto-068",
+      "label": ".",
+      "text": "."
+    },
+    {
+      "id": "texto-069",
+      "label": "Frequência regular nos dias de atendimento espiritual (terças e quintas-feiras).",
+      "text": "Frequência regular nos dias de atendimento espiritual (terças e quintas-feiras)."
+    },
+    {
+      "id": "texto-070",
+      "label": "Tempo estimado",
+      "text": "Tempo estimado"
+    },
+    {
+      "id": "texto-071",
+      "label": "~10 a 15 min",
+      "text": "~10 a 15 min"
+    },
+    {
+      "id": "texto-072",
+      "label": "Dica de Mobilidade Urbana: Rede RIT Curitiba",
+      "text": "Dica de Mobilidade Urbana: Rede RIT Curitiba"
+    },
+    {
+      "id": "texto-073",
+      "label": "Utilize o cartão URBS ou pagamento por aproximação (cartões de débito/crédito) para realiz",
+      "text": "Utilize o cartão URBS ou pagamento por aproximação (cartões de débito/crédito) para realizar a integração de linhas e tubos sem cobrança de nova tarifa nos terminais Cabral e Boa Vista. O desembarque na Av. Erasto Gaertner possui sinalização de pedestres e iluminação pública ampla."
+    },
+    {
+      "id": "texto-074",
+      "label": "Consultar Horários URBS",
+      "text": "Consultar Horários URBS"
+    },
+    {
+      "id": "texto-075",
+      "label": "Guia de Acolhimento",
+      "text": "Guia de Acolhimento"
+    },
+    {
+      "id": "texto-076",
+      "label": "Dicas Para Sua Visita",
+      "text": "Dicas Para Sua Visita"
+    },
+    {
+      "id": "texto-077",
+      "label": "Planejamos cada detalhe com amor e respeito para que sua passagem pela Casa seja um moment",
+      "text": "Planejamos cada detalhe com amor e respeito para que sua passagem pela Casa seja um momento de reconexão espiritual e profundo repouso interior."
+    },
+    {
+      "id": "texto-078",
+      "label": "Ambiente preparado em oração contínua para receber você e sua família.",
+      "text": "Ambiente preparado em oração contínua para receber você e sua família."
+    },
+    {
+      "id": "texto-079",
+      "label": "Chegue com 15 a 45 minutos de antecedência",
+      "text": "Chegue com 15 a 45 minutos de antecedência"
+    },
+    {
+      "id": "texto-080",
+      "label": "Os portões são abertos 45 minutos antes do início dos trabalhos. Chegar antes garante temp",
+      "text": "Os portões são abertos 45 minutos antes do início dos trabalhos. Chegar antes garante tempo hábil para a retirada tranquila de sua senha na recepção, acomodação no salão e serenidade mental."
+    },
+    {
+      "id": "texto-081",
+      "label": "Estacionamento na rua",
+      "text": "Estacionamento na rua"
+    },
+    {
+      "id": "texto-082",
+      "label": "As ruas do entorno residencial do Tingui são calmas, arborizadas e seguras, com vagas livr",
+      "text": "As ruas do entorno residencial do Tingui são calmas, arborizadas e seguras, com vagas livres nas vias Cel. Zacarias Xavier e adjacentes. Pedimos apenas atenção para não obstruir garagens dos vizinhos."
+    },
+    {
+      "id": "texto-083",
+      "label": "Atendimento por ordem de chegada",
+      "text": "Atendimento por ordem de chegada"
+    },
+    {
+      "id": "texto-084",
+      "label": "Não é necessário nenhum agendamento prévio ou cadastro anterior. Qualquer pessoa necessita",
+      "text": "Não é necessário nenhum agendamento prévio ou cadastro anterior. Qualquer pessoa necessitada de auxílio fraterno é recebida de braços abertos conforme a ordem de comparecimento."
+    },
+    {
+      "id": "texto-085",
+      "label": "Garrafas transparentes com água",
+      "text": "Garrafas transparentes com água"
+    },
+    {
+      "id": "texto-086",
+      "label": "Traga sua garrafa limpa e fechada de água caso deseje fluidificação durante a prece públic",
+      "text": "Traga sua garrafa limpa e fechada de água caso deseje fluidificação durante a prece pública. Identifique com seu nome na mesa designada antes da palestra."
+    },
+    {
+      "id": "texto-087",
+      "label": "Acessibilidade plena",
+      "text": "Acessibilidade plena"
+    },
+    {
+      "id": "texto-088",
+      "label": "Nossa sede dispõe de rampa de acesso suave com corrimão contínuo, sanitários adaptados e a",
+      "text": "Nossa sede dispõe de rampa de acesso suave com corrimão contínuo, sanitários adaptados e assentos prioritários reservados no salão para cadeirantes, idosos e pessoas com mobilidade reduzida."
+    },
+    {
+      "id": "texto-089",
+      "label": "Aviso Institucional & Postura Fraterna",
+      "text": "Aviso Institucional & Postura Fraterna"
+    },
+    {
+      "id": "texto-090",
+      "label": "Compromisso Cristão com a Gratuidade Total",
+      "text": "Compromisso Cristão com a Gratuidade Total"
+    },
+    {
+      "id": "texto-091",
+      "label": "Recomenda-se o uso de roupas claras e confortáveis para sintonizar a mente com o ambiente ",
+      "text": "Recomenda-se o uso de roupas claras e confortáveis para sintonizar a mente com o ambiente de paz."
+    },
+    {
+      "id": "texto-092",
+      "label": "Não cobramos nenhuma taxa, não vendemos senhas e nenhum colaborador recebe valores.",
+      "text": "Não cobramos nenhuma taxa, não vendemos senhas e nenhum colaborador recebe valores."
+    },
+    {
+      "id": "texto-093",
+      "label": "Todos os atendimentos, passes e orientações espirituais são estritamente gratuitos, inspir",
+      "text": "Todos os atendimentos, passes e orientações espirituais são estritamente gratuitos, inspirados na máxima:"
+    },
+    {
+      "id": "texto-094",
+      "label": "\"Dai de graça o que de graça recebestes\"",
+      "text": "\"Dai de graça o que de graça recebestes\""
+    },
+    {
+      "id": "texto-095",
+      "label": ".",
+      "text": "."
+    },
+    {
+      "id": "texto-096",
+      "label": "Celulares silenciosos durante as reuniões",
+      "text": "Celulares silenciosos durante as reuniões"
+    },
+    {
+      "id": "texto-097",
+      "label": "Acolhimento para todas as idades",
+      "text": "Acolhimento para todas as idades"
+    }
+  ],
+  "images": [
+    {
+      "id": "imagem-01",
+      "label": "Imagem",
+      "src": "/uploads/baae08632bc349.webp",
+      "alt": ""
+    }
+  ]
+}

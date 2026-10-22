@@ -1,0 +1,11 @@
+{
+  "projectId": "15002530522507390135",
+  "screens": {
+    "home": "7b0e10847417412cb4a37bffd4e4ee48",
+    "programacao": "aad8c73e67744a2c92716ee18b6b7813",
+    "a-casa": "7ee1ceee1a5640b781f27a026a181914",
+    "como-chegar": "a59c83fc0fd5472ea866f0f0c90dad81",
+    "estudo": "8a0107c5d1974f23949caf9e10d63d3b"
+  },
+  "note": "Home usa o preview indicado. Demais páginas: versões selecionadas da lista; revisar visualmente antes de produção."
+}

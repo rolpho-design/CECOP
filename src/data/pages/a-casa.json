@@ -1,0 +1,468 @@
+{
+  "title": "a-casa",
+  "texts": [
+    {
+      "id": "texto-001",
+      "label": "Tradição, Fé & Serviço Desinteressado",
+      "text": "Tradição, Fé & Serviço Desinteressado"
+    },
+    {
+      "id": "texto-002",
+      "label": "A Casa — Nossa História",
+      "text": "A Casa — Nossa História"
+    },
+    {
+      "id": "texto-003",
+      "label": "Uma jornada de fé, caridade, acolhimento e compromisso com o Evangelho de Jesus e a Doutri",
+      "text": "Uma jornada de fé, caridade, acolhimento e compromisso com o Evangelho de Jesus e a Doutrina Espírita desde 1994, oferecendo auxílio espiritual e consolo a todos que buscam a paz interior."
+    },
+    {
+      "id": "texto-004",
+      "label": "Fundada em 03/02/1994",
+      "text": "Fundada em 03/02/1994"
+    },
+    {
+      "id": "texto-005",
+      "label": "Utilidade Pública Municipal & Estadual",
+      "text": "Utilidade Pública Municipal & Estadual"
+    },
+    {
+      "id": "texto-006",
+      "label": "Curitiba / PR • Bairro Tingui",
+      "text": "Curitiba / PR • Bairro Tingui"
+    },
+    {
+      "id": "texto-007",
+      "label": "Sede Própria no Bairro Tingui",
+      "text": "Sede Própria no Bairro Tingui"
+    },
+    {
+      "id": "texto-008",
+      "label": "Um porto seguro de preces e fraternidade no coração de Curitiba",
+      "text": "Um porto seguro de preces e fraternidade no coração de Curitiba"
+    },
+    {
+      "id": "texto-009",
+      "label": "30+ Anos",
+      "text": "30+ Anos"
+    },
+    {
+      "id": "texto-010",
+      "label": "De dedicação ininterrupta à caridade cristã",
+      "text": "De dedicação ininterrupta à caridade cristã"
+    },
+    {
+      "id": "texto-011",
+      "label": "Origem & Missão",
+      "text": "Origem & Missão"
+    },
+    {
+      "id": "texto-012",
+      "label": "Nascida do ideal de servir com desinteresse e amor",
+      "text": "Nascida do ideal de servir com desinteresse e amor"
+    },
+    {
+      "id": "texto-013",
+      "label": "A CECOP — Casa Espiritualista Cristã Obreiros da Paz teve seu início em 1994, quando um pe",
+      "text": "A CECOP — Casa Espiritualista Cristã Obreiros da Paz teve seu início em 1994, quando um pequeno grupo de trabalhadores voluntários sentiu o chamado de estruturar um ponto de amparo fraterno para os aflitos do corpo e da alma."
+    },
+    {
+      "id": "texto-014",
+      "label": "Sem quaisquer intuitos lucrativos ou cobranças de qualquer natureza, a instituição floresc",
+      "text": "Sem quaisquer intuitos lucrativos ou cobranças de qualquer natureza, a instituição floresceu alicerçada nas máximas de Jesus Cristo e na lógica consoladora e esclarecedora codificada por Allan Kardec. Cada tijolo e cada prece refletem o compromisso contínuo com a regeneração moral e o consolo do próximo."
+    },
+    {
+      "id": "texto-015",
+      "label": "“Reconhece-se o verdadeiro espírita pela sua transformação moral e pelos esforços que empr",
+      "text": "“Reconhece-se o verdadeiro espírita pela sua transformação moral e pelos esforços que emprega para domar suas más inclinações.” — Allan Kardec"
+    },
+    {
+      "id": "texto-016",
+      "label": "Trajetória Institucional",
+      "text": "Trajetória Institucional"
+    },
+    {
+      "id": "texto-017",
+      "label": "Marcos Importantes da Nossa História",
+      "text": "Marcos Importantes da Nossa História"
+    },
+    {
+      "id": "texto-018",
+      "label": "Construção contínua de credibilidade, zelo evangélico e reconhecimento público ao longo da",
+      "text": "Construção contínua de credibilidade, zelo evangélico e reconhecimento público ao longo das décadas."
+    },
+    {
+      "id": "texto-019",
+      "label": "1994",
+      "text": "1994"
+    },
+    {
+      "id": "texto-020",
+      "label": "Fundação",
+      "text": "Fundação"
+    },
+    {
+      "id": "texto-021",
+      "label": "Nascimento da CECOP e Primeiros Trabalhos",
+      "text": "Nascimento da CECOP e Primeiros Trabalhos"
+    },
+    {
+      "id": "texto-022",
+      "label": "Fundação oficial da Casa Espiritualista Cristã Obreiros da Paz em 03 de fevereiro de 1994.",
+      "text": "Fundação oficial da Casa Espiritualista Cristã Obreiros da Paz em 03 de fevereiro de 1994. Início humilde e devotado das reuniões públicas, passes e distribuição de sopa fraterna em sede provisória na capital paranaense."
+    },
+    {
+      "id": "texto-023",
+      "label": "03 de Fevereiro de 1994",
+      "text": "03 de Fevereiro de 1994"
+    },
+    {
+      "id": "texto-024",
+      "label": "Lei Municipal nº 8.678 / 1995",
+      "text": "Lei Municipal nº 8.678 / 1995"
+    },
+    {
+      "id": "texto-025",
+      "label": "1995",
+      "text": "1995"
+    },
+    {
+      "id": "texto-026",
+      "label": "Curitiba",
+      "text": "Curitiba"
+    },
+    {
+      "id": "texto-027",
+      "label": "Utilidade Pública Municipal",
+      "text": "Utilidade Pública Municipal"
+    },
+    {
+      "id": "texto-028",
+      "label": "Reconhecimento oficial pela Câmara Municipal de Curitiba e Sanção do Poder Executivo (Lei ",
+      "text": "Reconhecimento oficial pela Câmara Municipal de Curitiba e Sanção do Poder Executivo (Lei nº 8.678/95), atestando a integridade filantrópica e os relevantes serviços desinteressados prestados à comunidade."
+    },
+    {
+      "id": "texto-029",
+      "label": "1999",
+      "text": "1999"
+    },
+    {
+      "id": "texto-030",
+      "label": "Paraná",
+      "text": "Paraná"
+    },
+    {
+      "id": "texto-031",
+      "label": "Utilidade Pública Estadual",
+      "text": "Utilidade Pública Estadual"
+    },
+    {
+      "id": "texto-032",
+      "label": "Promulgação da Lei Estadual nº 12.616/1999 pelo Governo do Estado do Paraná, chancelando o",
+      "text": "Promulgação da Lei Estadual nº 12.616/1999 pelo Governo do Estado do Paraná, chancelando o alcance social, a seriedade administrativa e o amparo moral exercido pela instituição sem barreiras regionais."
+    },
+    {
+      "id": "texto-033",
+      "label": "Lei Estadual nº 12.616 / 1999",
+      "text": "Lei Estadual nº 12.616 / 1999"
+    },
+    {
+      "id": "texto-034",
+      "label": "Presente & Futuro",
+      "text": "Presente & Futuro"
+    },
+    {
+      "id": "texto-035",
+      "label": "Hoje",
+      "text": "Hoje"
+    },
+    {
+      "id": "texto-036",
+      "label": "Atuação Viva",
+      "text": "Atuação Viva"
+    },
+    {
+      "id": "texto-037",
+      "label": "+6.000 Acolhimentos Mensais",
+      "text": "+6.000 Acolhimentos Mensais"
+    },
+    {
+      "id": "texto-038",
+      "label": "Consolidação na sede própria com cerca de 300m² de área construída no bairro Tingui. Mais ",
+      "text": "Consolidação na sede própria com cerca de 300m² de área construída no bairro Tingui. Mais de seis mil assistências mensais entre palestras doutrinárias, passes individuais, preces coletivas e atendimento fraterno à comunidade."
+    },
+    {
+      "id": "texto-039",
+      "label": "Pilares Éticos",
+      "text": "Pilares Éticos"
+    },
+    {
+      "id": "texto-040",
+      "label": "Nossos Princípios Doutrinários",
+      "text": "Nossos Princípios Doutrinários"
+    },
+    {
+      "id": "texto-041",
+      "label": "Normas inegociáveis de conduta que resguardam a pureza do atendimento e a segurança espiri",
+      "text": "Normas inegociáveis de conduta que resguardam a pureza do atendimento e a segurança espiritual de frequentadores e voluntários."
+    },
+    {
+      "id": "texto-042",
+      "label": "Fundamento Cristão",
+      "text": "Fundamento Cristão"
+    },
+    {
+      "id": "texto-043",
+      "label": "Gratuidade Absoluta",
+      "text": "Gratuidade Absoluta"
+    },
+    {
+      "id": "texto-044",
+      "label": "Nenhuma cobrança financeira é admitida. Não se vendem velas, talismãs, águas especiais ou ",
+      "text": "Nenhuma cobrança financeira é admitida. Não se vendem velas, talismãs, águas especiais ou orações. Todo o socorro espiritual é concedido livremente sob o preceito do Cristo:"
+    },
+    {
+      "id": "texto-045",
+      "label": "“Dai de graça o que de graça recebestes.” — Mateus 10:8",
+      "text": "“Dai de graça o que de graça recebestes.” — Mateus 10:8"
+    },
+    {
+      "id": "texto-046",
+      "label": "Fraternidade Aberta",
+      "text": "Fraternidade Aberta"
+    },
+    {
+      "id": "texto-047",
+      "label": "Acolhimento Universal",
+      "text": "Acolhimento Universal"
+    },
+    {
+      "id": "texto-048",
+      "label": "Nossas portas estão abertas a qualquer ser humano, sem distinção de crença, nacionalidade,",
+      "text": "Nossas portas estão abertas a qualquer ser humano, sem distinção de crença, nacionalidade, raça, gênero ou condição socioeconômica. Aqui o visitante encontra refúgio, respeito e escuta benevolente."
+    },
+    {
+      "id": "texto-049",
+      "label": "Portas Abertas • Sem Agendamento",
+      "text": "Portas Abertas • Sem Agendamento"
+    },
+    {
+      "id": "texto-050",
+      "label": "Esteio Kardequiano",
+      "text": "Esteio Kardequiano"
+    },
+    {
+      "id": "texto-051",
+      "label": "Rigor e Fidelidade",
+      "text": "Rigor e Fidelidade"
+    },
+    {
+      "id": "texto-052",
+      "label": "Adotamos com seriedade metodológica as Obras Básicas codificadas por Allan Kardec. As reun",
+      "text": "Adotamos com seriedade metodológica as Obras Básicas codificadas por Allan Kardec. As reuniões são desprovidas de rituais pomposos, preservando a singeleza e a clareza da fé raciocinada."
+    },
+    {
+      "id": "texto-053",
+      "label": "Pentateuco Kardequiano",
+      "text": "Pentateuco Kardequiano"
+    },
+    {
+      "id": "texto-054",
+      "label": "Espaço Acolhedor",
+      "text": "Espaço Acolhedor"
+    },
+    {
+      "id": "texto-055",
+      "label": "Estrutura Física • Sede Tingui",
+      "text": "Estrutura Física • Sede Tingui"
+    },
+    {
+      "id": "texto-056",
+      "label": "Aproximadamente 300m² planejados para o silêncio meditativo, a acessibilidade física de id",
+      "text": "Aproximadamente 300m² planejados para o silêncio meditativo, a acessibilidade física de idosos e enfermos e o equilíbrio das tarefas."
+    },
+    {
+      "id": "texto-057",
+      "label": "Salão de Palestras & Preces",
+      "text": "Salão de Palestras & Preces"
+    },
+    {
+      "id": "texto-058",
+      "label": "Ambiente climatizado com capacidade para mais de 120 pessoas sentadas, isolamento acústico",
+      "text": "Ambiente climatizado com capacidade para mais de 120 pessoas sentadas, isolamento acústico e sistema de som claro para explanações doutrinárias e irradiações fraternas."
+    },
+    {
+      "id": "texto-059",
+      "label": "Salas de Passes & Fluídos",
+      "text": "Salas de Passes & Fluídos"
+    },
+    {
+      "id": "texto-060",
+      "label": "Câmaras isoladas para transfusão bioenergética, passes magnéticos e fluidificação de águas",
+      "text": "Câmaras isoladas para transfusão bioenergética, passes magnéticos e fluidificação de águas, assegurando recolhimento absoluto e atmosfera de paz aos necessitados."
+    },
+    {
+      "id": "texto-061",
+      "label": "Biblioteca Kardequiana",
+      "text": "Biblioteca Kardequiana"
+    },
+    {
+      "id": "texto-062",
+      "label": "Acervo franqueado com centenas de volumes incluindo o Pentateuco Kardequiano, obras psicog",
+      "text": "Acervo franqueado com centenas de volumes incluindo o Pentateuco Kardequiano, obras psicografadas por Chico Xavier e Divaldo Franco, além de empréstimo gratuito a membros e estudantes."
+    },
+    {
+      "id": "texto-063",
+      "label": "Recepção & Triagem Fraterna",
+      "text": "Recepção & Triagem Fraterna"
+    },
+    {
+      "id": "texto-064",
+      "label": "Equipe qualificada de voluntários para acolhimento de primeiros visitantes, esclarecimento",
+      "text": "Equipe qualificada de voluntários para acolhimento de primeiros visitantes, esclarecimento de rotinas, orientações de horários e escuta íntima desprovida de julgamentos."
+    },
+    {
+      "id": "texto-065",
+      "label": "Cozinha & Ação Social",
+      "text": "Cozinha & Ação Social"
+    },
+    {
+      "id": "texto-066",
+      "label": "Estrutura gastronômica higienizada para a preparação periódica do Sopão Fraterno, armazena",
+      "text": "Estrutura gastronômica higienizada para a preparação periódica do Sopão Fraterno, armazenamento de donativos e montagem de cestas básicas entregues às famílias cadastradas."
+    },
+    {
+      "id": "texto-067",
+      "label": "Acessibilidade Total",
+      "text": "Acessibilidade Total"
+    },
+    {
+      "id": "texto-068",
+      "label": "Rampa suave de entrada, corredores amplos livres de barreiras arquitetônicas e sanitários ",
+      "text": "Rampa suave de entrada, corredores amplos livres de barreiras arquitetônicas e sanitários plenamente acessíveis para cadeirantes, idosos e pessoas com mobilidade reduzida."
+    },
+    {
+      "id": "texto-069",
+      "label": "Segurança Jurídica & Cidadania",
+      "text": "Segurança Jurídica & Cidadania"
+    },
+    {
+      "id": "texto-070",
+      "label": "Transparência Institucional & Registros Legais",
+      "text": "Transparência Institucional & Registros Legais"
+    },
+    {
+      "id": "texto-071",
+      "label": "A Casa Espiritualista Cristã Obreiros da Paz é uma associação religiosa e filantrópica dev",
+      "text": "A Casa Espiritualista Cristã Obreiros da Paz é uma associação religiosa e filantrópica devidamente registrada nos órgãos competentes, cumprindo rigorosamente suas obrigações civis, fiscais e estatutárias há mais de três décadas."
+    },
+    {
+      "id": "texto-072",
+      "label": "Poder Executivo Municipal",
+      "text": "Poder Executivo Municipal"
+    },
+    {
+      "id": "texto-073",
+      "label": "Lei Municipal nº 8.678 / 1995",
+      "text": "Lei Municipal nº 8.678 / 1995"
+    },
+    {
+      "id": "texto-074",
+      "label": "Declaração de Utilidade Pública de Curitiba/PR",
+      "text": "Declaração de Utilidade Pública de Curitiba/PR"
+    },
+    {
+      "id": "texto-075",
+      "label": "Governo do Estado",
+      "text": "Governo do Estado"
+    },
+    {
+      "id": "texto-076",
+      "label": "Lei Estadual nº 12.616 / 1999",
+      "text": "Lei Estadual nº 12.616 / 1999"
+    },
+    {
+      "id": "texto-077",
+      "label": "Declaração de Utilidade Pública do Paraná",
+      "text": "Declaração de Utilidade Pública do Paraná"
+    },
+    {
+      "id": "texto-078",
+      "label": "Razão Social",
+      "text": "Razão Social"
+    },
+    {
+      "id": "texto-079",
+      "label": "Casa Espiritualista Cristã Obreiros da Paz",
+      "text": "Casa Espiritualista Cristã Obreiros da Paz"
+    },
+    {
+      "id": "texto-080",
+      "label": "Inscrição CNPJ",
+      "text": "Inscrição CNPJ"
+    },
+    {
+      "id": "texto-081",
+      "label": "86.908.589/0001-46",
+      "text": "86.908.589/0001-46"
+    },
+    {
+      "id": "texto-082",
+      "label": "Natureza Jurídica",
+      "text": "Natureza Jurídica"
+    },
+    {
+      "id": "texto-083",
+      "label": "399-9 • Associação Privada Sem Fins Lucrativos",
+      "text": "399-9 • Associação Privada Sem Fins Lucrativos"
+    },
+    {
+      "id": "texto-084",
+      "label": "Endereço Registrado",
+      "text": "Endereço Registrado"
+    },
+    {
+      "id": "texto-085",
+      "label": "Rua Cel. Zacarias Xavier, 88 • Bairro Tingui • Curitiba/PR • CEP 82600-090",
+      "text": "Rua Cel. Zacarias Xavier, 88 • Bairro Tingui • Curitiba/PR • CEP 82600-090"
+    },
+    {
+      "id": "texto-086",
+      "label": "Estatuto Ativo",
+      "text": "Estatuto Ativo"
+    },
+    {
+      "id": "texto-087",
+      "label": "Como Chegar",
+      "text": "Como Chegar"
+    },
+    {
+      "id": "texto-088",
+      "label": "Venha nos Conhecer",
+      "text": "Venha nos Conhecer"
+    },
+    {
+      "id": "texto-089",
+      "label": "Você e sua família são sempre bem-vindos. Não é preciso agendamento, nem convite: basta co",
+      "text": "Você e sua família são sempre bem-vindos. Não é preciso agendamento, nem convite: basta comparecer com o coração aberto para receber as bênçãos da paz e do Evangelho."
+    },
+    {
+      "id": "texto-090",
+      "label": "Ver Dias & Horários de Reunião",
+      "text": "Ver Dias & Horários de Reunião"
+    },
+    {
+      "id": "texto-091",
+      "label": "Ver Rotas e Linhas de Ônibus",
+      "text": "Ver Rotas e Linhas de Ônibus"
+    }
+  ],
+  "images": [
+    {
+      "id": "imagem-01",
+      "label": "Imagem",
+      "src": "/uploads/5dad0ced2ee1bf.webp",
+      "alt": ""
+    }
+  ]
+}
