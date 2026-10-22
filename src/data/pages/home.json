@@ -8,13 +8,13 @@
     },
     {
       "id": "texto-002",
-      "label": "Bem-vindo à Casa Espiritualista Cristã",
-      "text": "Bem-vindo à Casa Espiritualista Cristã"
+      "label": "Portões abrem 45min antes",
+      "text": "Portões abrem 45min antes"
     },
     {
       "id": "texto-003",
-      "label": "Obreiros da Paz",
-      "text": "Obreiros da Paz"
+      "label": "Bem-vindo à Casa Espiritualista Cristã Obreiros da Paz",
+      "text": "Bem-vindo à Casa Espiritualista Cristã Obreiros da Paz"
     },
     {
       "id": "texto-004",
@@ -28,271 +28,467 @@
     },
     {
       "id": "texto-006",
-      "label": "Como Chegar",
-      "text": "Como Chegar"
+      "label": "Como Chegar (Tingui)",
+      "text": "Como Chegar (Tingui)"
     },
     {
       "id": "texto-007",
-      "label": "Portões abrem 45min antes",
-      "text": "Portões abrem 45min antes"
+      "label": "Sem agendamento prévio",
+      "text": "Sem agendamento prévio"
     },
     {
       "id": "texto-008",
-      "label": "Sede Tingui",
-      "text": "Sede Tingui"
+      "label": "•",
+      "text": "•"
     },
     {
       "id": "texto-009",
-      "label": "Curitiba / PR",
-      "text": "Curitiba / PR"
+      "label": "Livre e ecumênico",
+      "text": "Livre e ecumênico"
     },
     {
       "id": "texto-010",
-      "label": "Portas Abertas",
-      "text": "Portas Abertas"
+      "label": "•",
+      "text": "•"
     },
     {
       "id": "texto-011",
-      "label": "\"Dai de graça o que de graça recebestes.\"",
-      "text": "\"Dai de graça o que de graça recebestes.\""
+      "label": "Sem cobrança de qualquer valor",
+      "text": "Sem cobrança de qualquer valor"
     },
     {
       "id": "texto-012",
-      "label": "Prática da caridade pura e desinteressada, sem distinção de crenças ou origens.",
-      "text": "Prática da caridade pura e desinteressada, sem distinção de crenças ou origens."
+      "label": "Sede Tingui • Curitiba",
+      "text": "Sede Tingui • Curitiba"
     },
     {
       "id": "texto-013",
-      "label": "Tingui",
-      "text": "Tingui"
+      "label": "Acolhimento da Semana",
+      "text": "Acolhimento da Semana"
     },
     {
       "id": "texto-014",
-      "label": "Entrada Livre",
-      "text": "Entrada Livre"
+      "label": "Portas abertas para sua renovação",
+      "text": "Portas abertas para sua renovação"
     },
     {
       "id": "texto-015",
-      "label": "Ver Rotas & Localização",
-      "text": "Ver Rotas & Localização"
+      "label": "“Dai de graça o que de graça recebestes.”",
+      "text": "“Dai de graça o que de graça recebestes.”"
     },
     {
       "id": "texto-016",
-      "label": "100% Gratuito",
-      "text": "100% Gratuito"
+      "label": "Mateus 10:8 • Preceito Fundamental da Caridade",
+      "text": "Mateus 10:8 • Preceito Fundamental da Caridade"
     },
     {
       "id": "texto-017",
-      "label": "Nenhuma taxa ou cobrança",
-      "text": "Nenhuma taxa ou cobrança"
-    },
-    {
-      "id": "texto-018",
-      "label": "Sem Agendamento",
-      "text": "Sem Agendamento"
-    },
-    {
-      "id": "texto-019",
-      "label": "Atendimento por ordem de chegada",
-      "text": "Atendimento por ordem de chegada"
-    },
-    {
-      "id": "texto-020",
-      "label": "Sem Telefone",
-      "text": "Sem Telefone"
-    },
-    {
-      "id": "texto-021",
-      "label": "Orientações presenciais",
-      "text": "Orientações presenciais"
-    },
-    {
-      "id": "texto-022",
-      "label": "Acolhimento Fraterno",
-      "text": "Acolhimento Fraterno"
-    },
-    {
-      "id": "texto-023",
-      "label": "Sem distinção de religião ou credo",
-      "text": "Sem distinção de religião ou credo"
-    },
-    {
-      "id": "texto-024",
-      "label": "Dias de Reunião Pública",
-      "text": "Dias de Reunião Pública"
-    },
-    {
-      "id": "texto-025",
-      "label": "Próximos Atendimentos",
-      "text": "Próximos Atendimentos"
-    },
-    {
-      "id": "texto-026",
-      "label": "Confira os dias de palestras públicas, passes e trabalhos espirituais. Chegue com antecedê",
-      "text": "Confira os dias de palestras públicas, passes e trabalhos espirituais. Chegue com antecedência para retirada de fichas."
-    },
-    {
-      "id": "texto-027",
-      "label": "Grade Semanal Completa",
-      "text": "Grade Semanal Completa"
-    },
-    {
-      "id": "texto-029",
-      "label": "Sede Tingui — Curitiba / PR",
-      "text": "Sede Tingui — Curitiba / PR"
-    },
-    {
-      "id": "texto-030",
       "label": "Rua Cel. Zacarias Xavier, 88",
       "text": "Rua Cel. Zacarias Xavier, 88"
     },
     {
+      "id": "texto-018",
+      "label": "Atendimento Hoje: Fichas 19h",
+      "text": "Atendimento Hoje: Fichas 19h"
+    },
+    {
+      "id": "texto-019",
+      "label": "30 Anos",
+      "text": "30 Anos"
+    },
+    {
+      "id": "texto-020",
+      "label": "de amparo e preces fraternas",
+      "text": "de amparo e preces fraternas"
+    },
+    {
+      "id": "texto-021",
+      "label": "100% Gratuito",
+      "text": "100% Gratuito"
+    },
+    {
+      "id": "texto-022",
+      "label": "Nenhuma taxa ou cobrança de valores",
+      "text": "Nenhuma taxa ou cobrança de valores"
+    },
+    {
+      "id": "texto-023",
+      "label": "Sem Agendamento",
+      "text": "Sem Agendamento"
+    },
+    {
+      "id": "texto-024",
+      "label": "Atendimento fraterno por ordem de chegada",
+      "text": "Atendimento fraterno por ordem de chegada"
+    },
+    {
+      "id": "texto-025",
+      "label": "Acolhimento Presencial",
+      "text": "Acolhimento Presencial"
+    },
+    {
+      "id": "texto-026",
+      "label": "Sem inscrições por WhatsApp ou telefone",
+      "text": "Sem inscrições por WhatsApp ou telefone"
+    },
+    {
+      "id": "texto-027",
+      "label": "Universal & Laico",
+      "text": "Universal & Laico"
+    },
+    {
+      "id": "texto-028",
+      "label": "Sem distinção de religião, credo ou crença",
+      "text": "Sem distinção de religião, credo ou crença"
+    },
+    {
+      "id": "texto-029",
+      "label": "Atendimento Espiritual",
+      "text": "Atendimento Espiritual"
+    },
+    {
+      "id": "texto-030",
+      "label": "Próximos Atendimentos & Reuniões Públicas",
+      "text": "Próximos Atendimentos & Reuniões Públicas"
+    },
+    {
       "id": "texto-031",
-      "label": "30+",
-      "text": "30+"
+      "label": "As reuniões públicas combinam palestra com ensinamentos do Evangelho de Jesus e atendiment",
+      "text": "As reuniões públicas combinam palestra com ensinamentos do Evangelho de Jesus e atendimento espiritual por meio de passes e preces. Escolha o melhor dia para seu acolhimento."
     },
     {
       "id": "texto-032",
-      "label": "Anos de Luz",
-      "text": "Anos de Luz"
-    },
-    {
-      "id": "texto-033",
-      "label": "Tradição & Amor Fraterno",
-      "text": "Tradição & Amor Fraterno"
+      "label": "Ver Grade Semanal Completa",
+      "text": "Ver Grade Semanal Completa"
     },
     {
       "id": "texto-034",
-      "label": "Uma história de fé e serviço desinteressado",
-      "text": "Uma história de fé e serviço desinteressado"
+      "label": "Trabalho Intensivo",
+      "text": "Trabalho Intensivo"
     },
     {
       "id": "texto-035",
-      "label": "Fundada em 03 de fevereiro de 1994, a",
-      "text": "Fundada em 03 de fevereiro de 1994, a"
+      "label": "Quinta-Feira",
+      "text": "Quinta-Feira"
     },
     {
       "id": "texto-036",
-      "label": "Casa Espiritualista Cristã Obreiros da Paz (CECOP)",
-      "text": "Casa Espiritualista Cristã Obreiros da Paz (CECOP)"
+      "label": "Capacidade: 450 pessoas",
+      "text": "Capacidade: 450 pessoas"
     },
     {
       "id": "texto-037",
-      "label": "nasceu com o propósito inegociável de oferecer consolo moral e alívio espiritual sob a luz",
-      "text": "nasceu com o propósito inegociável de oferecer consolo moral e alívio espiritual sob a luz do Evangelho do Cristo e os postulados da Doutrina Espírita."
+      "label": "Tratamento & Amparo Espiritual (Cura)",
+      "text": "Tratamento & Amparo Espiritual (Cura)"
     },
     {
       "id": "texto-038",
-      "label": "Reconhecida formalmente como instituição de",
-      "text": "Reconhecida formalmente como instituição de"
+      "label": "Reunião de passes concentrados de desobsessão e auxílio energético para enfermidades físic",
+      "text": "Reunião de passes concentrados de desobsessão e auxílio energético para enfermidades físicas e morais."
     },
     {
       "id": "texto-039",
+      "label": "Distribuição de Fichas:",
+      "text": "Distribuição de Fichas:"
+    },
+    {
+      "id": "texto-040",
+      "label": "15h45 às 19h45",
+      "text": "15h45 às 19h45"
+    },
+    {
+      "id": "texto-041",
+      "label": "Início dos Trabalhos:",
+      "text": "Início dos Trabalhos:"
+    },
+    {
+      "id": "texto-042",
+      "label": "16h30",
+      "text": "16h30"
+    },
+    {
+      "id": "texto-043",
+      "label": "Recomenda-se vestir roupas claras",
+      "text": "Recomenda-se vestir roupas claras"
+    },
+    {
+      "id": "texto-044",
+      "label": "Acolhimento contínuo por turnos de atendimento",
+      "text": "Acolhimento contínuo por turnos de atendimento"
+    },
+    {
+      "id": "texto-045",
+      "label": "Saiba mais e orientações",
+      "text": "Saiba mais e orientações"
+    },
+    {
+      "id": "texto-046",
+      "label": "Sábado",
+      "text": "Sábado"
+    },
+    {
+      "id": "texto-047",
+      "label": "Doutrinário & Evangelização",
+      "text": "Doutrinário & Evangelização"
+    },
+    {
+      "id": "texto-048",
+      "label": "ESDE & Evangelização Infantil",
+      "text": "ESDE & Evangelização Infantil"
+    },
+    {
+      "id": "texto-049",
+      "label": "Estudo Sistematizado da Doutrina Espírita (Kardec) para adultos e atividades de infância e",
+      "text": "Estudo Sistematizado da Doutrina Espírita (Kardec) para adultos e atividades de infância e mocidade."
+    },
+    {
+      "id": "texto-050",
+      "label": "Atividades de Grupo:",
+      "text": "Atividades de Grupo:"
+    },
+    {
+      "id": "texto-051",
+      "label": "15h00 às 17h00",
+      "text": "15h00 às 17h00"
+    },
+    {
+      "id": "texto-052",
+      "label": "Biblioteca Aberta:",
+      "text": "Biblioteca Aberta:"
+    },
+    {
+      "id": "texto-053",
+      "label": "14h30 às 17h30",
+      "text": "14h30 às 17h30"
+    },
+    {
+      "id": "texto-054",
+      "label": "Turmas organizadas por faixas etárias",
+      "text": "Turmas organizadas por faixas etárias"
+    },
+    {
+      "id": "texto-055",
+      "label": "Empréstimo de livros do acervo doutrinário",
+      "text": "Empréstimo de livros do acervo doutrinário"
+    },
+    {
+      "id": "texto-056",
+      "label": "Conhecer os Grupos de Estudo",
+      "text": "Conhecer os Grupos de Estudo"
+    },
+    {
+      "id": "texto-057",
+      "label": "Sede Própria no Tingui",
+      "text": "Sede Própria no Tingui"
+    },
+    {
+      "id": "texto-058",
+      "label": "Três décadas de dedicação incondicional à caridade",
+      "text": "Três décadas de dedicação incondicional à caridade"
+    },
+    {
+      "id": "texto-059",
+      "label": "Sem Fins Lucrativos",
+      "text": "Sem Fins Lucrativos"
+    },
+    {
+      "id": "texto-060",
+      "label": "Manutenção voluntária e filantrópica",
+      "text": "Manutenção voluntária e filantrópica"
+    },
+    {
+      "id": "texto-061",
+      "label": "Nossa Trajetória",
+      "text": "Nossa Trajetória"
+    },
+    {
+      "id": "texto-062",
+      "label": "Uma história de amor ao próximo e serviço desinteressado",
+      "text": "Uma história de amor ao próximo e serviço desinteressado"
+    },
+    {
+      "id": "texto-063",
+      "label": "Fundada em",
+      "text": "Fundada em"
+    },
+    {
+      "id": "texto-064",
+      "label": "03 de fevereiro de 1994",
+      "text": "03 de fevereiro de 1994"
+    },
+    {
+      "id": "texto-065",
+      "label": "em Curitiba, a Casa Espiritualista Cristã Obreiros da Paz nasceu com o propósito de vivenc",
+      "text": "em Curitiba, a Casa Espiritualista Cristã Obreiros da Paz nasceu com o propósito de vivenciar o Evangelho do Cristo no amparo espiritual, moral e humano a quem bate à sua porta."
+    },
+    {
+      "id": "texto-066",
+      "label": "Reconhecida como entidade de",
+      "text": "Reconhecida como entidade de"
+    },
+    {
+      "id": "texto-067",
       "label": "Utilidade Pública Municipal e Estadual",
       "text": "Utilidade Pública Municipal e Estadual"
     },
     {
-      "id": "texto-040",
-      "label": ", a casa sustenta-se exclusivamente pelo trabalho voluntário de seus cooperadores, realiza",
-      "text": ", a casa sustenta-se exclusivamente pelo trabalho voluntário de seus cooperadores, realizando milhares de assistências mensais com absoluto respeito e gratuidade."
+      "id": "texto-068",
+      "label": ", a Casa acolhe milhares de irmãos a cada mês. Os trabalhos são realizados inteiramente po",
+      "text": ", a Casa acolhe milhares de irmãos a cada mês. Os trabalhos são realizados inteiramente por voluntários dedicados, pautados no respeito fraterno, no passe reconfortante e na instrução evangélica kardequiana."
     },
     {
-      "id": "texto-041",
+      "id": "texto-069",
       "label": "1994",
       "text": "1994"
     },
     {
-      "id": "texto-042",
+      "id": "texto-070",
       "label": "Ano de Fundação",
       "text": "Ano de Fundação"
     },
     {
-      "id": "texto-043",
+      "id": "texto-071",
       "label": "Oficial",
       "text": "Oficial"
     },
     {
-      "id": "texto-044",
+      "id": "texto-072",
       "label": "Utilidade Pública",
       "text": "Utilidade Pública"
     },
     {
-      "id": "texto-045",
+      "id": "texto-073",
       "label": "+6.000",
       "text": "+6.000"
     },
     {
-      "id": "texto-046",
+      "id": "texto-074",
       "label": "Acolhimentos / Mês",
       "text": "Acolhimentos / Mês"
     },
     {
-      "id": "texto-047",
-      "label": "Conheça nossa história completa e estatuto",
-      "text": "Conheça nossa história completa e estatuto"
+      "id": "texto-075",
+      "label": "Conheça nossa história completa, fundadores e estatuto",
+      "text": "Conheça nossa história completa, fundadores e estatuto"
     },
     {
-      "id": "texto-048",
-      "label": "Orientações aos Visitantes",
-      "text": "Orientações aos Visitantes"
+      "id": "texto-076",
+      "label": "Guia do Visitante",
+      "text": "Guia do Visitante"
     },
     {
-      "id": "texto-049",
+      "id": "texto-077",
       "label": "Vai à Casa pela primeira vez?",
       "text": "Vai à Casa pela primeira vez?"
     },
     {
-      "id": "texto-050",
-      "label": "Reunimos orientações simples e práticas para que seu momento de recolhimento e prece trans",
-      "text": "Reunimos orientações simples e práticas para que seu momento de recolhimento e prece transcorra com absoluta tranquilidade e harmonia."
+      "id": "texto-078",
+      "label": "O ambiente espiritual necessita de harmonia, recolhimento e respeito mútuo. Veja como se p",
+      "text": "O ambiente espiritual necessita de harmonia, recolhimento e respeito mútuo. Veja como se preparar para o atendimento."
     },
     {
-      "id": "texto-051",
+      "id": "texto-079",
       "label": "Roupas Claras & Confortáveis",
       "text": "Roupas Claras & Confortáveis"
     },
     {
-      "id": "texto-052",
-      "label": "Dê preferência a vestimentas discretas, claras e confortáveis. Evite trajes curtos, decote",
-      "text": "Dê preferência a vestimentas discretas, claras e confortáveis. Evite trajes curtos, decotes acentuados ou regatas em respeito ao ambiente solene de cura."
+      "id": "texto-080",
+      "label": "Recomendamos trajes discretos, de preferência brancos ou em tons claros, que auxiliam na r",
+      "text": "Recomendamos trajes discretos, de preferência brancos ou em tons claros, que auxiliam na receptividade fluídica."
     },
     {
-      "id": "texto-053",
-      "label": "Chegada e Fichas",
-      "text": "Chegada e Fichas"
+      "id": "texto-081",
+      "label": "Fichas & Horário de Chegada",
+      "text": "Fichas & Horário de Chegada"
     },
     {
-      "id": "texto-054",
-      "label": "O atendimento é feito rigorosamente por ordem de chegada. Retire sua senha com os recepcio",
-      "text": "O atendimento é feito rigorosamente por ordem de chegada. Retire sua senha com os recepcionistas no portão e aguarde o chamado no salão."
+      "id": "texto-082",
+      "label": "Chegue com 30 a 45 minutos de antecedência. As fichas são retiradas pessoalmente na portar",
+      "text": "Chegue com 30 a 45 minutos de antecedência. As fichas são retiradas pessoalmente na portaria por ordem de fila."
     },
     {
-      "id": "texto-055",
-      "label": "Silêncio & Água Fluidificada",
-      "text": "Silêncio & Água Fluidificada"
+      "id": "texto-083",
+      "label": "Silêncio & Recolhimento",
+      "text": "Silêncio & Recolhimento"
     },
     {
-      "id": "texto-056",
-      "label": "Mantenha o celular desligado para preservar a psicosfera. Traga sua garrafinha com água mi",
-      "text": "Mantenha o celular desligado para preservar a psicosfera. Traga sua garrafinha com água mineral limpa para ser fluidificada durante os passes."
+      "id": "texto-084",
+      "label": "Mantenha o aparelho celular desligado ou em modo silencioso. O preparo íntimo da mente e d",
+      "text": "Mantenha o aparelho celular desligado ou em modo silencioso. O preparo íntimo da mente e do coração é fundamental."
     },
     {
-      "id": "texto-057",
-      "label": "Acesso facilitado por diversas linhas de ônibus da RIT Curitiba com parada a poucos metros",
-      "text": "Acesso facilitado por diversas linhas de ônibus da RIT Curitiba com parada a poucos metros da casa."
+      "id": "texto-085",
+      "label": "Água para Fluidificação",
+      "text": "Água para Fluidificação"
     },
     {
-      "id": "texto-058",
-      "label": "Ver Linhas & Rotas no Mapa",
-      "text": "Ver Linhas & Rotas no Mapa"
+      "id": "texto-086",
+      "label": "Você pode trazer sua garrafa de água potável identificada para ser magnetizada pelos benfe",
+      "text": "Você pode trazer sua garrafa de água potável identificada para ser magnetizada pelos benfeitores espirituais durante o passe."
+    },
+    {
+      "id": "texto-087",
+      "label": "Acesso Facilitado",
+      "text": "Acesso Facilitado"
+    },
+    {
+      "id": "texto-088",
+      "label": "Tingui • Curitiba",
+      "text": "Tingui • Curitiba"
+    },
+    {
+      "id": "texto-089",
+      "label": "Linhas da RIT (Rede Integrada de Transporte)",
+      "text": "Linhas da RIT (Rede Integrada de Transporte)"
+    },
+    {
+      "id": "texto-090",
+      "label": "Próximo à Av. Fernando de Noronha e Terminal Boa Vista / Santa Cândida. Linhas alimentador",
+      "text": "Próximo à Av. Fernando de Noronha e Terminal Boa Vista / Santa Cândida. Linhas alimentadoras com parada a menos de 2 quadras da Casa."
+    },
+    {
+      "id": "texto-091",
+      "label": "Ver Mapa & Linhas de Ônibus",
+      "text": "Ver Mapa & Linhas de Ônibus"
+    },
+    {
+      "id": "texto-092",
+      "label": "Casa Espiritualista Cristã Obreiros da Paz",
+      "text": "Casa Espiritualista Cristã Obreiros da Paz"
+    },
+    {
+      "id": "texto-093",
+      "label": "Sinta-se em casa. Acolhimento, consolo e esperança.",
+      "text": "Sinta-se em casa. Acolhimento, consolo e esperança."
+    },
+    {
+      "id": "texto-094",
+      "label": "Venha orar conosco, fortalecer seu espírito e encontrar a tranquilidade que você e sua fam",
+      "text": "Venha orar conosco, fortalecer seu espírito e encontrar a tranquilidade que você e sua família merecem. Não é necessário vínculo prévio."
+    },
+    {
+      "id": "texto-095",
+      "label": "Confira os Dias e Horários",
+      "text": "Confira os Dias e Horários"
+    },
+    {
+      "id": "texto-096",
+      "label": "Conheça as Obras Básicas",
+      "text": "Conheça as Obras Básicas"
     }
   ],
   "images": [
     {
       "id": "imagem-01",
-      "label": "Sede da CECOP Tingui",
-      "src": "/uploads/654627da3c7f37.webp",
-      "alt": "Sede da CECOP Tingui"
+      "label": "Imagem",
+      "src": "/uploads/abf9af702d0600.webp",
+      "alt": ""
+    },
+    {
+      "id": "imagem-02",
+      "label": "Imagem",
+      "src": "/uploads/21689fbe19d8dd.webp",
+      "alt": ""
     }
   ]
 }

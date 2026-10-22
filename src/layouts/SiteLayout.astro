@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import { markActiveNavigation } from '../lib/navigation.mjs';
 import { renderPage,site,schedule,notices,materials } from '../lib/content';
 import { renderNotices,escapeHtml } from '../lib/calendar.mjs';
 const {title,slug}=Astro.props;
@@ -11,7 +12,7 @@ const fullAddress=`${site.address} — ${site.district} — ${site.city}/${site.
 <html lang="pt-BR"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>{title} | CECOP</title><meta name="description" content="Conheça o CECOP, consulte a programação de atendimentos gratuitos e saiba como chegar à casa em Curitiba."/><link rel="canonical" href={new URL(Astro.url.pathname,Astro.site)}/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Merriweather:wght@400;700;900&family=Material+Symbols+Outlined&display=swap" rel="stylesheet"/></head>
 <body class="bg-surface font-body text-on-surface antialiased" data-address={fullAddress}>
 <a href="#conteudo" class="skip-link">Pular para o conteúdo</a>
-<Fragment set:html={renderPage('header')}/>
+<Fragment set:html={markActiveNavigation(renderPage('header'), Astro.url.pathname)}/>
 <div id="conteudo" tabindex="-1"></div>
 <div data-notices class="max-w-[1200px] mx-auto px-6 empty:hidden pt-28"><Fragment set:html={renderNotices(notices)}/></div>
 <slot/>
@@ -28,6 +29,6 @@ const button=document.querySelector<HTMLButtonElement>('[data-menu-toggle]');con
 function closeMenu(){if(menu)menu.hidden=true;button?.setAttribute('aria-expanded','false');button?.setAttribute('aria-label','Abrir menu de navegação');}
 button?.addEventListener('click',()=>{if(!menu)return;menu.hidden=!menu.hidden;button.setAttribute('aria-expanded',String(!menu.hidden));button.setAttribute('aria-label',menu.hidden?'Abrir menu de navegação':'Fechar menu de navegação');});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&menu&&!menu.hidden){closeMenu();button?.focus();}});
-document.querySelectorAll('header a[href]').forEach(a=>{if(new URL((a as HTMLAnchorElement).href).pathname===location.pathname)a.setAttribute('aria-current','page');});
+
 </script>
 </body></html>

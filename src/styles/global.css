@@ -2,3 +2,5 @@
 @tailwind components;
 @tailwind utilities;
 html{scroll-padding-top:7rem}body{margin:0} [hidden]{display:none!important} a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #6B8CAE!important;outline-offset:4px} .skip-link{position:fixed;top:-6rem;left:1rem;z-index:100;background:white;padding:1rem}.skip-link:focus{top:1rem} [data-calendar] h3{font-family:Merriweather,serif} @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+
+header nav a[aria-current="page"]{background:#2d3a8c;color:#fff;font-weight:600;border-radius:9999px;box-shadow:0 1px 2px #0000000d}#mobile-nav a{padding-left:1rem;padding-right:1rem}
