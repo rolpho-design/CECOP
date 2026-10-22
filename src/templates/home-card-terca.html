@@ -1,8 +1,8 @@
 <div class="flex flex-col justify-between p-8 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
 <div class="flex flex-col gap-5">
 <!-- Day Pill & Limit Flag -->
-<div class="flex items-center justify-between">
-<span class="inline-flex items-center px-3.5 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-badge-label text-badge-label uppercase tracking-wider font-bold">
+<div class="flex flex-wrap items-center justify-between gap-2">
+<span class="inline-flex shrink-0 whitespace-nowrap items-center px-3.5 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-badge-label text-badge-label uppercase tracking-wider font-bold">
                 [[field:weekday]]
               </span>
 <span class="inline-flex items-center gap-1 font-caption text-caption text-secondary font-medium">
@@ -13,8 +13,8 @@
 <p class="font-body-default text-body-default text-on-surface-variant">[[field:description]]</p>
 </div>
 <!-- Time Slots Box -->
-[[exception]]<div class="p-4 rounded-xl bg-surface-container-low flex flex-col gap-2.5" data-timebox [[timebox-hidden]]>
-<div class="flex items-center justify-between text-on-surface">
+[[exception]]<div class="p-4 rounded-[12px] bg-surface-container-low flex flex-col gap-2.5" data-timebox [[timebox-hidden]]>
+<div class="flex items-start justify-between gap-4 text-on-surface">
 <span class="font-caption text-caption text-on-surface-variant flex items-center gap-1.5">
 <span class="material-symbols-outlined text-[16px] text-secondary">confirmation_number</span>
                   Distribuição de Fichas:
@@ -22,7 +22,7 @@
 <span class="font-body-emphasis text-body-emphasis text-primary">[[field:tickets]]</span>
 </div>
 <div class="w-full h-[1px] bg-surface-variant"></div>
-<div class="flex items-center justify-between text-on-surface">
+<div class="flex items-start justify-between gap-4 text-on-surface">
 <span class="font-caption text-caption text-on-surface-variant flex items-center gap-1.5">
 <span class="material-symbols-outlined text-[16px] text-secondary">alarm</span>
                   Início dos Trabalhos:
