@@ -29,7 +29,7 @@ export function activeNotices(notices, now = new Date()) {
  return notices.items.filter(n=>n.active && (!n.start || n.start<=date) && (!n.end || n.end>=date));
 }
 export function renderNotices(notices,now=new Date()) {
- return activeNotices(notices,now).map(n=>`<aside class="site-notice" aria-label="Aviso da casa"><div class="site-notice-inner"><span class="material-symbols-outlined site-notice-icon" aria-hidden="true">info</span><div class="site-notice-copy"><h2>${escapeHtml(n.title)}</h2><p>${escapeHtml(n.message)}</p></div></div></aside>`).join('');
+ return activeNotices(notices,now).map(n=>`<aside class="site-notice" aria-label="Aviso da casa"><div class="site-notice-inner"><span class="material-symbols-outlined site-notice-icon" aria-hidden="true">info</span><span class="site-notice-label">Aviso da casa</span><div class="site-notice-copy"><h2>${escapeHtml(n.title)}</h2><p>${escapeHtml(n.message)}</p></div></div></aside>`).join('');
 }
 
 // The two editable cards keep the exact FINAL artboard structure.
