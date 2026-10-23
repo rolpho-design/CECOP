@@ -2,14 +2,14 @@ backend:
   name: github
   repo: rolpho-design/CECOP
   branch: main
-  base_url: https://cecop.org.br
+  base_url: https://cecop.r-augusto.workers.dev
   auth_endpoint: api/auth
 local_backend: true
 locale: pt
 media_folder: public/uploads
 public_folder: /uploads
-site_url: https://cecop.org.br
-display_url: https://cecop.org.br
+site_url: https://cecop.r-augusto.workers.dev
+display_url: https://cecop.r-augusto.workers.dev
 collections:
 - name: operacao
   label: Programação e informações
