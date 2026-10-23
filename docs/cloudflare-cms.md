@@ -43,3 +43,7 @@ O endpoint retorna 503 enquanto faltarem credenciais. Os testes automatizados si
 Ao migrar para cecop.org.br, atualize SITE_ORIGIN, base_url/site_url/display_url e o callback do aplicativo juntos. O domínio atual permanece sem alteração nesta etapa.
 
 Referências: https://decapcms.org/docs/backends-overview/ ; https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/authorizing-oauth-apps ; https://developers.cloudflare.com/workers/static-assets/binding/
+
+## Previews de branches
+
+O comando `npx wrangler preview` usa o bloco previews.vars. SITE_ORIGIN é https://preview.invalid para impedir login OAuth em URLs temporárias; não configure secrets de produção para previews. O site estático pode ser revisado normalmente. O login deve ser validado em https://cecop.r-augusto.workers.dev após o deploy da main com `npx wrangler deploy`.
