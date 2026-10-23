@@ -1,3 +1,9 @@
 {
-  "items": []
+  "items": [
+    {
+      "active": true,
+      "title": "teste de aviso ",
+      "message": "apenas testando o sistema administrativo"
+    }
+  ]
 }
