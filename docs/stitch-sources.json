@@ -1,0 +1,18 @@
+{
+  "projectId": "15002530522507390135",
+  "screens": {
+    "home": "d984f5ebb9db4e64857bdcd369802121",
+    "programacao": "aad8c73e67744a2c92716ee18b6b7813",
+    "a-casa": "7ee1ceee1a5640b781f27a026a181914",
+    "como-chegar": "4b2491a448bd4f55b45ed8627a17b5fa",
+    "estudo": "8a0107c5d1974f23949caf9e10d63d3b"
+  },
+  "note": "Referências confirmadas pelos labels -FINAL das screenInstances do Stitch; títulos de screen não refletem os labels dos artboards.",
+  "finalArtboards": {
+    "COMO CHEGAR-FINAL": "projects/15002530522507390135/screens/4b2491a448bd4f55b45ed8627a17b5fa",
+    "A CASA-FINAL": "projects/15002530522507390135/screens/7ee1ceee1a5640b781f27a026a181914",
+    "ESTUDO-FINAL": "projects/15002530522507390135/screens/8a0107c5d1974f23949caf9e10d63d3b",
+    "PROGRAMACAO-FINAL": "projects/15002530522507390135/screens/aad8c73e67744a2c92716ee18b6b7813",
+    "HOME-FINAL": "projects/15002530522507390135/screens/d984f5ebb9db4e64857bdcd369802121"
+  }
+}

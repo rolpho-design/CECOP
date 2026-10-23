@@ -1,0 +1,73 @@
+{
+  "title": "header",
+  "texts": [
+    {
+      "id": "texto-001",
+      "label": "CECOP",
+      "text": "CECOP"
+    },
+    {
+      "id": "texto-002",
+      "label": "Casa Espiritualista Cristã Obreiros da Paz",
+      "text": "Casa Espiritualista Cristã Obreiros da Paz"
+    },
+    {
+      "id": "texto-003",
+      "label": "Home",
+      "text": "Início"
+    },
+    {
+      "id": "texto-004",
+      "label": "Programação",
+      "text": "Programação"
+    },
+    {
+      "id": "texto-005",
+      "label": "A Casa",
+      "text": "A Casa"
+    },
+    {
+      "id": "texto-006",
+      "label": "Como Chegar",
+      "text": "Contato e localização"
+    },
+    {
+      "id": "texto-007",
+      "label": "Estudo & Obras",
+      "text": "Estudos e materiais"
+    },
+    {
+      "id": "texto-008",
+      "label": "Home",
+      "text": "Início"
+    },
+    {
+      "id": "texto-009",
+      "label": "Programação",
+      "text": "Programação"
+    },
+    {
+      "id": "texto-010",
+      "label": "A Casa",
+      "text": "A Casa"
+    },
+    {
+      "id": "texto-011",
+      "label": "Como Chegar",
+      "text": "Contato e localização"
+    },
+    {
+      "id": "texto-012",
+      "label": "Estudo & Obras",
+      "text": "Estudos e materiais"
+    }
+  ],
+  "images": [
+    {
+      "id": "imagem-01",
+      "label": "CECOP - Casa Espiritualista Cristã Obreiros da Paz",
+      "src": "/uploads/c1078860ffbc16.webp",
+      "alt": "CECOP - Casa Espiritualista Cristã Obreiros da Paz"
+    }
+  ]
+}

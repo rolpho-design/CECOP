@@ -1,0 +1,583 @@
+backend:
+  name: github
+  repo: rolpho-design/CECOP
+  branch: main
+  base_url: https://cecop.org.br
+  auth_endpoint: api/auth
+local_backend: true
+locale: pt
+media_folder: public/uploads
+public_folder: /uploads
+site_url: https://cecop.org.br
+display_url: https://cecop.org.br
+collections:
+- name: operacao
+  label: Programação e informações
+  files:
+  - name: casa
+    label: Informações da casa
+    file: src/data/site.json
+    fields:
+    - name: name
+      label: Nome completo
+      widget: string
+    - name: shortName
+      label: Nome abreviado
+      widget: string
+    - name: address
+      label: Rua e número
+      widget: string
+    - name: district
+      label: Bairro
+      widget: string
+    - name: city
+      label: Cidade
+      widget: string
+    - name: state
+      label: Estado
+      widget: string
+    - name: postalCode
+      label: CEP
+      widget: string
+    - name: email
+      label: E-mail
+      widget: string
+    - name: cnpj
+      label: CNPJ
+      widget: string
+    - name: contentVerified
+      label: Dados revisados pela instituição
+      widget: boolean
+    - name: phoneAvailable
+      label: A casa possui telefone
+      widget: boolean
+      default: false
+    - name: hasBranches
+      label: A casa possui filiais
+      widget: boolean
+      default: false
+    - name: instagram
+      label: Instagram oficial
+      widget: string
+  - name: programacao
+    label: Atendimentos e exceções
+    file: src/data/schedule.json
+    fields:
+    - name: appointments
+      label: Atendimentos
+      widget: list
+      fields:
+      - name: id
+        label: Identificador
+        widget: string
+        hint: Use letras minúsculas e hífens. Mantenha o ID para preservar as exceções.
+        pattern:
+        - ^[a-z0-9-]+$
+        - Use letras minúsculas, números e hífens
+      - name: title
+        label: Nome do atendimento
+        widget: string
+      - name: weekday
+        label: Dia da semana
+        widget: select
+        options:
+        - label: Domingo
+          value: 0
+        - label: Segunda
+          value: 1
+        - label: Terça
+          value: 2
+        - label: Quarta
+          value: 3
+        - label: Quinta
+          value: 4
+        - label: Sexta
+          value: 5
+        - label: Sábado
+          value: 6
+      - name: time
+        label: Horário de início
+        widget: string
+        pattern:
+        - ^([01]\d|2[0-3]):[0-5]\d$
+        - Use HH:MM
+      - name: tickets
+        label: Distribuição de fichas
+        widget: string
+      - name: capacity
+        label: Capacidade / acesso
+        widget: string
+      - name: description
+        label: Descrição
+        widget: text
+      - name: instructions
+        label: Orientações
+        widget: text
+      - name: active
+        label: Ativo
+        widget: boolean
+        default: true
+      - name: features
+        label: Orientações resumidas no card da Home
+        widget: list
+        allow_add: false
+        min: 2
+        max: 2
+        required: false
+        field:
+          name: text
+          label: Orientação
+          widget: string
+      summary: '{{fields.title}}'
+    - name: exceptions
+      label: Cancelamentos e horários especiais
+      widget: list
+      fields:
+      - name: appointmentId
+        label: Atendimento
+        widget: select
+        options:
+        - label: Terça — Saúde, Espiritualidade & Passes
+          value: terca
+        - label: Quinta — Tratamento & Amparo Espiritual
+          value: quinta
+        hint: Se adicionar outro atendimento, atualize também as opções deste campo
+          com apoio técnico.
+      - name: date
+        label: Data
+        widget: datetime
+        format: YYYY-MM-DD
+        date_format: DD/MM/YYYY
+        time_format: false
+        picker_utc: true
+      - name: status
+        label: Alteração
+        widget: select
+        options:
+        - label: Cancelamento
+          value: cancelled
+        - label: Horário especial
+          value: special
+      - name: time
+        label: Novo horário
+        widget: string
+        required: false
+        hint: Preencha para horário especial. Formato HH:MM.
+      - name: message
+        label: Mensagem para o visitante
+        widget: text
+      summary: '{{fields.date}} — {{fields.appointmentId}}'
+  - name: avisos
+    label: Avisos
+    file: src/data/notices.json
+    fields:
+    - name: items
+      label: Avisos
+      widget: list
+      fields:
+      - name: title
+        label: Título
+        widget: string
+      - name: message
+        label: Mensagem
+        widget: text
+      - name: active
+        label: Ativo
+        widget: boolean
+        default: true
+      - name: start
+        label: Exibir a partir de
+        widget: datetime
+        format: YYYY-MM-DD
+        date_format: DD/MM/YYYY
+        time_format: false
+        picker_utc: true
+        required: false
+      - name: end
+        label: Último dia de exibição
+        widget: datetime
+        format: YYYY-MM-DD
+        date_format: DD/MM/YYYY
+        time_format: false
+        picker_utc: true
+        required: false
+      summary: '{{fields.title}}'
+  - name: materiais
+    label: Materiais de estudo
+    file: src/data/materials.json
+    fields:
+    - name: items
+      label: Materiais
+      widget: list
+      fields:
+      - name: id
+        label: Identificador
+        widget: hidden
+      - name: title
+        label: Título
+        widget: string
+      - name: description
+        label: Descrição
+        widget: text
+      - name: file
+        label: PDF
+        widget: file
+        media_folder: /public/uploads
+        public_folder: /uploads
+        media_library:
+          config:
+            multiple: false
+      summary: '{{fields.title}}'
+      hint: Os cinco livros estão ligados aos cards da página Estudos e materiais.
+        Preserve seus identificadores.
+  - name: tarde-do-pastel
+    label: Tarde do Pastel — próxima edição
+    file: src/data/event.json
+    fields:
+    - name: active
+      label: Exibir na Home
+      widget: boolean
+      default: true
+    - name: title
+      label: Título
+      widget: string
+    - name: description
+      label: Descrição
+      widget: text
+    - name: nextDate
+      label: Data da próxima edição
+      widget: datetime
+      format: YYYY-MM-DD
+      date_format: DD/MM/YYYY
+      time_format: false
+      picker_utc: true
+      hint: Atualize a cada edição. Depois dessa data, a Home deixa de anunciar esta
+        edição como futura.
+    - name: startTime
+      label: Horário de início
+      widget: string
+      required: false
+      hint: Opcional. Use HH:MM.
+    - name: endTime
+      label: Horário de término
+      widget: string
+      required: false
+      hint: Opcional. Use HH:MM.
+    - name: price
+      label: Preço do pastel (R$)
+      widget: number
+      value_type: float
+      min: 0
+      required: false
+      hint: Opcional. Preencha somente após confirmar o preço da edição.
+- name: paginas
+  label: Textos e imagens das páginas
+  files:
+  - name: home
+    label: Home
+    file: src/data/pages/home.json
+    fields:
+    - name: title
+      label: Página
+      widget: hidden
+    - name: texts
+      label: Textos
+      widget: list
+      fields:
+      - name: id
+        label: Identificador
+        widget: hidden
+      - name: label
+        label: Referência original
+        widget: hidden
+      - name: text
+        label: Conteúdo
+        widget: text
+      allow_add: false
+      collapsed: true
+      summary: '{{fields.label}}'
+      hint: Edite o texto sem alterar a estrutura da página. Endereço, e-mail e horários
+        ficam em Programação e informações.
+    - name: images
+      label: Imagens
+      widget: list
+      fields:
+      - name: id
+        label: Identificador
+        widget: hidden
+      - name: label
+        label: Referência
+        widget: hidden
+      - name: src
+        label: Imagem
+        widget: image
+      - name: alt
+        label: Descrição para acessibilidade
+        widget: string
+      allow_add: false
+      collapsed: true
+      summary: '{{fields.label}}'
+  - name: programacao
+    label: Programação — textos complementares
+    file: src/data/pages/programacao.json
+    fields:
+    - name: title
+      label: Página
+      widget: hidden
+    - name: texts
+      label: Textos
+      widget: list
+      fields:
+      - name: id
+        label: Identificador
+        widget: hidden
+      - name: label
+        label: Referência original
+        widget: hidden
+      - name: text
+        label: Conteúdo
+        widget: text
+      allow_add: false
+      collapsed: true
+      summary: '{{fields.label}}'
+      hint: Edite o texto sem alterar a estrutura da página. Endereço, e-mail e horários
+        ficam em Programação e informações.
+    - name: images
+      label: Imagens
+      widget: list
+      fields:
+      - name: id
+        label: Identificador
+        widget: hidden
+      - name: label
+        label: Referência
+        widget: hidden
+      - name: src
+        label: Imagem
+        widget: image
+      - name: alt
+        label: Descrição para acessibilidade
+        widget: string
+      allow_add: false
+      collapsed: true
+      summary: '{{fields.label}}'
+  - name: a-casa
+    label: A Casa
+    file: src/data/pages/a-casa.json
+    fields:
+    - name: title
+      label: Página
+      widget: hidden
+    - name: texts
+      label: Textos
+      widget: list
+      fields:
+      - name: id
+        label: Identificador
+        widget: hidden
+      - name: label
+        label: Referência original
+        widget: hidden
+      - name: text
+        label: Conteúdo
+        widget: text
+      allow_add: false
+      collapsed: true
+      summary: '{{fields.label}}'
+      hint: Edite o texto sem alterar a estrutura da página. Endereço, e-mail e horários
+        ficam em Programação e informações.
+    - name: images
+      label: Imagens
+      widget: list
+      fields:
+      - name: id
+        label: Identificador
+        widget: hidden
+      - name: label
+        label: Referência
+        widget: hidden
+      - name: src
+        label: Imagem
+        widget: image
+      - name: alt
+        label: Descrição para acessibilidade
+        widget: string
+      allow_add: false
+      collapsed: true
+      summary: '{{fields.label}}'
+  - name: como-chegar
+    label: Contato e localização
+    file: src/data/pages/como-chegar.json
+    fields:
+    - name: title
+      label: Página
+      widget: hidden
+    - name: texts
+      label: Textos
+      widget: list
+      fields:
+      - name: id
+        label: Identificador
+        widget: hidden
+      - name: label
+        label: Referência original
+        widget: hidden
+      - name: text
+        label: Conteúdo
+        widget: text
+      allow_add: false
+      collapsed: true
+      summary: '{{fields.label}}'
+      hint: Edite o texto sem alterar a estrutura da página. Endereço, e-mail e horários
+        ficam em Programação e informações.
+    - name: images
+      label: Imagens
+      widget: list
+      fields:
+      - name: id
+        label: Identificador
+        widget: hidden
+      - name: label
+        label: Referência
+        widget: hidden
+      - name: src
+        label: Imagem
+        widget: image
+      - name: alt
+        label: Descrição para acessibilidade
+        widget: string
+      allow_add: false
+      collapsed: true
+      summary: '{{fields.label}}'
+  - name: estudo
+    label: Estudos e materiais
+    file: src/data/pages/estudo.json
+    fields:
+    - name: title
+      label: Página
+      widget: hidden
+    - name: texts
+      label: Textos
+      widget: list
+      fields:
+      - name: id
+        label: Identificador
+        widget: hidden
+      - name: label
+        label: Referência original
+        widget: hidden
+      - name: text
+        label: Conteúdo
+        widget: text
+      allow_add: false
+      collapsed: true
+      summary: '{{fields.label}}'
+      hint: Edite o texto sem alterar a estrutura da página. Endereço, e-mail e horários
+        ficam em Programação e informações.
+    - name: images
+      label: Imagens
+      widget: list
+      fields:
+      - name: id
+        label: Identificador
+        widget: hidden
+      - name: label
+        label: Referência
+        widget: hidden
+      - name: src
+        label: Imagem
+        widget: image
+      - name: alt
+        label: Descrição para acessibilidade
+        widget: string
+      allow_add: false
+      collapsed: true
+      summary: '{{fields.label}}'
+  - name: header
+    label: Cabeçalho
+    file: src/data/pages/header.json
+    fields:
+    - name: title
+      label: Página
+      widget: hidden
+    - name: texts
+      label: Textos
+      widget: list
+      fields:
+      - name: id
+        label: Identificador
+        widget: hidden
+      - name: label
+        label: Referência original
+        widget: hidden
+      - name: text
+        label: Conteúdo
+        widget: text
+      allow_add: false
+      collapsed: true
+      summary: '{{fields.label}}'
+      hint: Edite o texto sem alterar a estrutura da página. Endereço, e-mail e horários
+        ficam em Programação e informações.
+    - name: images
+      label: Imagens
+      widget: list
+      fields:
+      - name: id
+        label: Identificador
+        widget: hidden
+      - name: label
+        label: Referência
+        widget: hidden
+      - name: src
+        label: Imagem
+        widget: image
+      - name: alt
+        label: Descrição para acessibilidade
+        widget: string
+      allow_add: false
+      collapsed: true
+      summary: '{{fields.label}}'
+  - name: footer
+    label: Rodapé
+    file: src/data/pages/footer.json
+    fields:
+    - name: title
+      label: Página
+      widget: hidden
+    - name: texts
+      label: Textos
+      widget: list
+      fields:
+      - name: id
+        label: Identificador
+        widget: hidden
+      - name: label
+        label: Referência original
+        widget: hidden
+      - name: text
+        label: Conteúdo
+        widget: text
+      allow_add: false
+      collapsed: true
+      summary: '{{fields.label}}'
+      hint: Edite o texto sem alterar a estrutura da página. Endereço, e-mail e horários
+        ficam em Programação e informações.
+    - name: images
+      label: Imagens
+      widget: list
+      fields:
+      - name: id
+        label: Identificador
+        widget: hidden
+      - name: label
+        label: Referência
+        widget: hidden
+      - name: src
+        label: Imagem
+        widget: image
+      - name: alt
+        label: Descrição para acessibilidade
+        widget: string
+      allow_add: false
+      collapsed: true
+      summary: '{{fields.label}}'

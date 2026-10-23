@@ -1,0 +1,408 @@
+{
+  "title": "como-chegar",
+  "texts": [
+    {
+      "id": "texto-001",
+      "label": "Localização & Acesso",
+      "text": "Contato & acesso"
+    },
+    {
+      "id": "texto-002",
+      "label": "Como Chegar à Casa",
+      "text": "Contato e localização"
+    },
+    {
+      "id": "texto-003",
+      "label": "Estamos localizados na Rua Cel. Zacarias Xavier, 88, no bairro Tingui, em Curitiba. Venha ",
+      "text": "Venha conhecer a casa no bairro Tingui, em Curitiba. Para dúvidas, fale com a administração por e-mail ou acompanhe o CECOP no Instagram."
+    },
+    {
+      "id": "texto-007",
+      "label": "AV. ERASTO GAERTNER",
+      "text": "AV. ERASTO GAERTNER"
+    },
+    {
+      "id": "texto-008",
+      "label": "R. CEL. ZACARIAS XAVIER",
+      "text": "R. CEL. ZACARIAS XAVIER"
+    },
+    {
+      "id": "texto-009",
+      "label": "Parque Bacacheri",
+      "text": "Parque Bacacheri"
+    },
+    {
+      "id": "texto-010",
+      "label": "Área de Preservação",
+      "text": "Área de Preservação"
+    },
+    {
+      "id": "texto-011",
+      "label": "Bairro Tingui • Curitiba",
+      "text": "Bairro Tingui • Curitiba"
+    },
+    {
+      "id": "texto-012",
+      "label": "25°23'42.1\"S 49°14'15.8\"W",
+      "text": "25°23'42.1\"S 49°14'15.8\"W"
+    },
+    {
+      "id": "texto-013",
+      "label": "Região Residencial Tranquila",
+      "text": "Região Residencial Tranquila"
+    },
+    {
+      "id": "texto-014",
+      "label": "Distância: a 650m do Parque Bacacheri",
+      "text": "Distância: a 650m do Parque Bacacheri"
+    },
+    {
+      "id": "texto-015",
+      "label": "Expandir Mapa Completo",
+      "text": "Expandir Mapa Completo"
+    },
+    {
+      "id": "texto-016",
+      "label": "SEDE OFICIAL",
+      "text": "SEDE OFICIAL"
+    },
+    {
+      "id": "texto-017",
+      "label": "Rua Cel. Zacarias Xavier, 88",
+      "text": "Rua Cel. Zacarias Xavier, 88"
+    },
+    {
+      "id": "texto-018",
+      "label": "Tingui — Curitiba / PR",
+      "text": "Tingui — Curitiba / PR"
+    },
+    {
+      "id": "texto-019",
+      "label": "CEP 82620-180",
+      "text": "CEP 82620-180"
+    },
+    {
+      "id": "texto-020",
+      "label": "Ponto de Referência",
+      "text": "Ponto de Referência"
+    },
+    {
+      "id": "texto-021",
+      "label": "Próximo à Av. Erasto Gaertner e ao Parque Bacacheri. Rua asfaltada com calçadas arborizada",
+      "text": "Próximo à Av. Erasto Gaertner e ao Parque Bacacheri. Rua asfaltada com calçadas arborizadas e tranquilas."
+    },
+    {
+      "id": "texto-022",
+      "label": "Acesso Principal",
+      "text": "Acesso Principal"
+    },
+    {
+      "id": "texto-023",
+      "label": "Portão social identificado com placa CECOP. Entrada adaptada para cadeirantes e pessoas co",
+      "text": "Portão social identificado com placa CECOP. Entrada adaptada para cadeirantes e pessoas com mobilidade reduzida."
+    },
+    {
+      "id": "texto-024",
+      "label": "Google Maps",
+      "text": "Google Maps"
+    },
+    {
+      "id": "texto-025",
+      "label": "Abrir no Waze",
+      "text": "Abrir no Waze"
+    },
+    {
+      "id": "texto-026",
+      "label": "Copiar Endereço Completo",
+      "text": "Copiar Endereço Completo"
+    },
+    {
+      "id": "texto-027",
+      "label": "INTEGRAÇÃO URBANA URBS",
+      "text": "INTEGRAÇÃO URBANA URBS"
+    },
+    {
+      "id": "texto-028",
+      "label": "Transporte Público",
+      "text": "Transporte Público"
+    },
+    {
+      "id": "texto-029",
+      "label": "Curitiba possui um dos sistemas integrados de transporte mais eficientes do país. Confira ",
+      "text": "Curitiba possui um dos sistemas integrados de transporte mais eficientes do país. Confira as melhores opções de linhas e conexões para chegar ao CECOP com facilidade."
+    },
+    {
+      "id": "texto-030",
+      "label": "Terminal Guadalupe",
+      "text": "Terminal Guadalupe"
+    },
+    {
+      "id": "texto-031",
+      "label": "Centro",
+      "text": "Centro"
+    },
+    {
+      "id": "texto-032",
+      "label": "Ideal para quem parte da região central e rodoviária da capital.",
+      "text": "Ideal para quem parte da região central e rodoviária da capital."
+    },
+    {
+      "id": "texto-033",
+      "label": "Linhas que percorrem a",
+      "text": "Linhas que percorrem a"
+    },
+    {
+      "id": "texto-034",
+      "label": "Av. Erasto Gaertner",
+      "text": "Av. Erasto Gaertner"
+    },
+    {
+      "id": "texto-035",
+      "label": "Desembarque próximo e caminhada de cerca de 3 minutos",
+      "text": "Desembarque próximo e caminhada de cerca de 3 minutos"
+    },
+    {
+      "id": "texto-036",
+      "label": "Tempo Estimado:",
+      "text": "Tempo Estimado:"
+    },
+    {
+      "id": "texto-037",
+      "label": "~ 20 a 25 min",
+      "text": "~ 20 a 25 min"
+    },
+    {
+      "id": "texto-038",
+      "label": "Terminal Cabral",
+      "text": "Terminal Cabral"
+    },
+    {
+      "id": "texto-039",
+      "label": "Conexão Norte-Sul",
+      "text": "Conexão Norte-Sul"
+    },
+    {
+      "id": "texto-040",
+      "label": "Ponto de integração com os biarticulados Santa Cândida / Capão Raso.",
+      "text": "Ponto de integração com os biarticulados Santa Cândida / Capão Raso."
+    },
+    {
+      "id": "texto-041",
+      "label": "Linha",
+      "text": "Linha"
+    },
+    {
+      "id": "texto-042",
+      "label": "Auto Maracanã",
+      "text": "Auto Maracanã"
+    },
+    {
+      "id": "texto-043",
+      "label": "e alimentadores",
+      "text": "e alimentadores"
+    },
+    {
+      "id": "texto-044",
+      "label": "Desembarque com calçadas contínuas até a Cel. Zacarias Xavier",
+      "text": "Desembarque com calçadas contínuas até a Cel. Zacarias Xavier"
+    },
+    {
+      "id": "texto-045",
+      "label": "Tempo Estimado:",
+      "text": "Tempo Estimado:"
+    },
+    {
+      "id": "texto-046",
+      "label": "~ 12 a 18 min",
+      "text": "~ 12 a 18 min"
+    },
+    {
+      "id": "texto-047",
+      "label": "Terminal Boa Vista",
+      "text": "Terminal Boa Vista"
+    },
+    {
+      "id": "texto-048",
+      "label": "Região Norte",
+      "text": "Região Norte"
+    },
+    {
+      "id": "texto-049",
+      "label": "Atendimento direto para moradores do Boa Vista, Tingui, Bacacheri e Santa Cândida.",
+      "text": "Atendimento direto para moradores do Boa Vista, Tingui, Bacacheri e Santa Cândida."
+    },
+    {
+      "id": "texto-050",
+      "label": "Linhas",
+      "text": "Linhas"
+    },
+    {
+      "id": "texto-051",
+      "label": "Bairro Alto",
+      "text": "Bairro Alto"
+    },
+    {
+      "id": "texto-052",
+      "label": ",",
+      "text": ","
+    },
+    {
+      "id": "texto-053",
+      "label": "Vila Esperança",
+      "text": "Vila Esperança"
+    },
+    {
+      "id": "texto-054",
+      "label": "e",
+      "text": "e"
+    },
+    {
+      "id": "texto-055",
+      "label": "Rio Verde",
+      "text": "Rio Verde"
+    },
+    {
+      "id": "texto-056",
+      "label": "Frequência regular nos dias de atendimento (terças e quintas)",
+      "text": "Frequência regular nos dias de atendimento (terças e quintas)"
+    },
+    {
+      "id": "texto-057",
+      "label": "Tempo Estimado:",
+      "text": "Tempo Estimado:"
+    },
+    {
+      "id": "texto-058",
+      "label": "~ 10 a 15 min",
+      "text": "~ 10 a 15 min"
+    },
+    {
+      "id": "texto-059",
+      "label": "Pagamento no Transporte Coletivo de Curitiba",
+      "text": "Pagamento no Transporte Coletivo de Curitiba"
+    },
+    {
+      "id": "texto-060",
+      "label": "O transporte de Curitiba aceita Cartão Transporte URBS e pagamento direto por aproximação ",
+      "text": "O transporte de Curitiba aceita Cartão Transporte URBS e pagamento direto por aproximação (cartões de débito/crédito e smartphones)."
+    },
+    {
+      "id": "texto-061",
+      "label": "Consultar Horários URBS",
+      "text": "Consultar Horários URBS"
+    },
+    {
+      "id": "texto-062",
+      "label": "GUIA DE ACOLHIMENTO",
+      "text": "GUIA DE ACOLHIMENTO"
+    },
+    {
+      "id": "texto-063",
+      "label": "Dicas Para Sua Visita",
+      "text": "Dicas Para Sua Visita"
+    },
+    {
+      "id": "texto-064",
+      "label": "Para que você vivencie seu momento de paz e reconexão espiritual com serenidade, preparamo",
+      "text": "Para que você vivencie seu momento de paz e reconexão espiritual com serenidade, preparamos algumas orientações acolhedoras para sua chegada."
+    },
+    {
+      "id": "texto-065",
+      "label": "Paz, Serenidade & Caridade",
+      "text": "Paz, Serenidade & Caridade"
+    },
+    {
+      "id": "texto-066",
+      "label": "Um espaço dedicado à fraternidade, oração e renovação das energias espirituais sob as bênç",
+      "text": "Um espaço dedicado à fraternidade, oração e renovação das energias espirituais sob as bênçãos do Cristo."
+    },
+    {
+      "id": "texto-067",
+      "label": "Chegue com 15 a 45 minutos de antecedência",
+      "text": "Chegue com 15 a 45 minutos de antecedência"
+    },
+    {
+      "id": "texto-068",
+      "label": "Os portões abrem 45 minutos antes das reuniões. Chegar mais cedo permite retirar sua senha",
+      "text": "Os portões abrem 45 minutos antes das reuniões. Chegar mais cedo permite retirar sua senha com tranquilidade na recepção e sintonizar os pensamentos na prece silenciosa."
+    },
+    {
+      "id": "texto-069",
+      "label": "Estacionamento na rua",
+      "text": "Estacionamento na rua"
+    },
+    {
+      "id": "texto-070",
+      "label": "A Rua Cel. Zacarias Xavier e vias adjacentes são calmas e arborizadas, oferecendo vagas li",
+      "text": "A Rua Cel. Zacarias Xavier e vias adjacentes são calmas e arborizadas, oferecendo vagas livres ao longo da rua. Pedimos a gentileza de não estacionar em frente às garagens vizinhas."
+    },
+    {
+      "id": "texto-071",
+      "label": "Atendimento por ordem de chegada",
+      "text": "Atendimento por ordem de chegada"
+    },
+    {
+      "id": "texto-072",
+      "label": "Não é necessário realizar agendamento prévio. Todos os frequentadores e visitantes são rec",
+      "text": "Não é necessário realizar agendamento prévio. Todos os frequentadores e visitantes são recebidos fraternalmente conforme a ordem de comparecimento."
+    },
+    {
+      "id": "texto-073",
+      "label": "Garrafas transparentes com água",
+      "text": "Garrafas transparentes com água"
+    },
+    {
+      "id": "texto-074",
+      "label": "Caso deseje a fluidificação de água para o seu lar ou tratamento pessoal, traga sua garraf",
+      "text": "Caso deseje a fluidificação de água para o seu lar ou tratamento pessoal, traga sua garrafa transparente com seu nome identificado na bancada indicada da sala de preces."
+    },
+    {
+      "id": "texto-075",
+      "label": "Acessibilidade plena",
+      "text": "Acessibilidade plena"
+    },
+    {
+      "id": "texto-076",
+      "label": "Nossa sede dispõe de rampa de acesso suave com corrimão contínuo, sanitários adaptados e a",
+      "text": "Nossa sede dispõe de rampa de acesso suave com corrimão contínuo, sanitários adaptados e assentos prioritários reservados para idosos, gestantes e pessoas com necessidades especiais."
+    },
+    {
+      "id": "texto-077",
+      "label": "COMPROMISSO CRISTÃO",
+      "text": "COMPROMISSO CRISTÃO"
+    },
+    {
+      "id": "texto-078",
+      "label": "Atendimento 100% Gratuito & Fraterno",
+      "text": "Atendimento 100% Gratuito & Fraterno"
+    },
+    {
+      "id": "texto-079",
+      "label": "Recomendamos o uso de roupas claras e confortáveis. Lembramos que em nenhuma circunstância",
+      "text": "Recomendamos o uso de roupas claras e confortáveis. Lembramos que em nenhuma circunstância cobramos valores, taxas ou contribuições compulsórias: todas as palestras, orientações, preces e passes são livres e desinteressados."
+    },
+    {
+      "id": "texto-080",
+      "label": "“Dai de graça o que de graça recebestes” — Princípio fundamental do Espiritismo Cristão",
+      "text": "“Dai de graça o que de graça recebestes” — Princípio fundamental do Espiritismo Cristão"
+    },
+    {
+      "id": "texto-081",
+      "label": "Ver Dias & Horários",
+      "text": "Ver Dias & Horários"
+    },
+    {
+      "id": "texto-082",
+      "label": "Conheça A Casa",
+      "text": "Conheça A Casa"
+    }
+  ],
+  "images": [
+    {
+      "id": "imagem-01",
+      "label": "Ambiente Sereno do CECOP Tingui",
+      "src": "/uploads/c164678b9ebd55.webp",
+      "alt": "Ambiente Sereno do CECOP Tingui"
+    }
+  ]
+}

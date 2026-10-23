@@ -1,0 +1,35 @@
+{
+  "appointments": [
+    {
+      "id": "terca",
+      "title": "Saúde, Espiritualidade & Passes",
+      "weekday": 2,
+      "time": "19:30",
+      "tickets": "19h00 às 20h30",
+      "capacity": "120 pessoas",
+      "description": "Palestra evangélica introdutória seguida de passe fluídico e acolhimento espiritual fraterno.",
+      "instructions": "Consulte as orientações para a primeira visita.",
+      "active": true,
+      "features": [
+        "Recomendado para iniciantes e famílias",
+        "Água magnetizada disponível ao final"
+      ]
+    },
+    {
+      "id": "quinta",
+      "title": "Tratamento & Amparo Espiritual (Cura)",
+      "weekday": 4,
+      "time": "16:30",
+      "tickets": "15h45 às 19h45",
+      "capacity": "450 pessoas",
+      "description": "Reunião de passes concentrados de desobsessão e auxílio energético para enfermidades físicas e morais.",
+      "instructions": "Consulte as orientações para a primeira visita.",
+      "active": true,
+      "features": [
+        "Recomenda-se vestir roupas claras",
+        "Acolhimento contínuo por turnos de atendimento"
+      ]
+    }
+  ],
+  "exceptions": []
+}

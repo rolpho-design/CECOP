@@ -1,0 +1,98 @@
+{
+  "title": "footer",
+  "texts": [
+    {
+      "id": "texto-001",
+      "label": "CECOP",
+      "text": "CECOP"
+    },
+    {
+      "id": "texto-002",
+      "label": "Obreiros da Paz",
+      "text": "Obreiros da Paz"
+    },
+    {
+      "id": "texto-003",
+      "label": "Instituição sem fins lucrativos dedicada à caridade espiritual, estudos da Doutrina Espíri",
+      "text": "Instituição sem fins lucrativos dedicada à caridade espiritual, estudos da Doutrina Espírita e acolhimento fraterno a todos que buscam paz e consolo."
+    },
+    {
+      "id": "texto-004",
+      "label": "100% Gratuito",
+      "text": "100% Gratuito"
+    },
+    {
+      "id": "texto-005",
+      "label": "Localização & Dados",
+      "text": "Localização & Dados"
+    },
+    {
+      "id": "texto-006",
+      "label": "Rua Cel. Zacarias Xavier, 88",
+      "text": "Rua Cel. Zacarias Xavier, 88"
+    },
+    {
+      "id": "texto-007",
+      "label": "Tingui — Curitiba - PR",
+      "text": "Tingui — Curitiba - PR"
+    },
+    {
+      "id": "texto-008",
+      "label": "CEP 82600-090",
+      "text": "CEP 82600-090"
+    },
+    {
+      "id": "texto-009",
+      "label": "CNPJ: 86.908.589/0001-46",
+      "text": "CNPJ: 86.908.589/0001-46"
+    },
+    {
+      "id": "texto-010",
+      "label": "contato@cecop.org.br",
+      "text": "contato@cecop.org.br"
+    },
+    {
+      "id": "texto-011",
+      "label": "Reuniões Públicas",
+      "text": "Reuniões Públicas"
+    },
+    {
+      "id": "texto-013",
+      "label": "Acolhimento",
+      "text": "Acolhimento"
+    },
+    {
+      "id": "texto-014",
+      "label": "Não é necessário agendamento prévio para palestras e passes públicos. O portão abre 45 min",
+      "text": "Não é necessário agendamento prévio para palestras e passes públicos. O portão abre 45 minutos antes do início das atividades."
+    },
+    {
+      "id": "texto-015",
+      "label": "Rotas de ônibus e trânsito",
+      "text": "Rotas de ônibus e trânsito"
+    },
+    {
+      "id": "texto-016",
+      "label": "Biblioteca & Obras Básicas",
+      "text": "Biblioteca & Obras Básicas"
+    },
+    {
+      "id": "texto-017",
+      "label": "© 2026 Casa Espiritualista Cristã Obreiros da Paz (CECOP). Todos os direitos reservados.",
+      "text": "© 2026 Casa Espiritualista Cristã Obreiros da Paz (CECOP). Todos os direitos reservados."
+    },
+    {
+      "id": "texto-018",
+      "label": "\"Dai de graça o que de graça recebestes\"",
+      "text": "\"Dai de graça o que de graça recebestes\""
+    }
+  ],
+  "images": [
+    {
+      "id": "imagem-01",
+      "label": "CECOP Logo",
+      "src": "/uploads/c1078860ffbc16.webp",
+      "alt": "CECOP Logo"
+    }
+  ]
+}

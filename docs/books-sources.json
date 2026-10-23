@@ -1,0 +1,47 @@
+[
+  {
+    "title": "O Livro dos Espíritos",
+    "description": "Allan Kardec — PDF gratuito.",
+    "file": "/wp-content/uploads/2016/01/OLivrodosEspiritos.pdf",
+    "pages": 604,
+    "bytes": 1399717,
+    "source": "https://cecop.org.br/wp-content/uploads/2016/01/OLivrodosEspiritos.pdf",
+    "sha256": "5efd39417031b29c7ee9352fa7a39e0047914f4bc1ab7da5072ec3f1025045f1"
+  },
+  {
+    "title": "O Livro dos Médiuns",
+    "description": "Allan Kardec — PDF gratuito.",
+    "file": "/wp-content/uploads/2016/01/OLivrodosMediuns.pdf",
+    "pages": 577,
+    "bytes": 1402918,
+    "source": "https://cecop.org.br/wp-content/uploads/2016/01/OLivrodosMediuns.pdf",
+    "sha256": "e2c3f31e721b35ad49f5e6cbe8d5825c90933fe174f273b728185bf23eb2890a"
+  },
+  {
+    "title": "O Evangelho Segundo o Espiritismo",
+    "description": "Allan Kardec — PDF gratuito.",
+    "file": "/wp-content/uploads/2016/01/OEvangelhoSegundooEspiritismo.pdf",
+    "pages": 562,
+    "bytes": 1386978,
+    "source": "https://cecop.org.br/wp-content/uploads/2016/01/OEvangelhoSegundooEspiritismo.pdf",
+    "sha256": "6d59e797767cce5d5f12d96e383eb4b0853f9168527519da04b42fee7f2c5ac4"
+  },
+  {
+    "title": "A Gênese",
+    "description": "Allan Kardec — PDF gratuito.",
+    "file": "/wp-content/uploads/2016/01/A-genese_Guillon.pdf",
+    "pages": 416,
+    "bytes": 15449238,
+    "source": "https://cecop.org.br/wp-content/uploads/2016/01/A-genese_Guillon.pdf",
+    "sha256": "6b067131d0d8c377154a681a8b30cb3735895e52b835b24942231de008bc9a7a"
+  },
+  {
+    "title": "O Céu e o Inferno",
+    "description": "Allan Kardec — PDF gratuito.",
+    "file": "/wp-content/uploads/2016/01/o-ceu-e-o-inferno.pdf",
+    "pages": 512,
+    "bytes": 1246382,
+    "source": "https://cecop.org.br/wp-content/uploads/2016/01/o-ceu-e-o-inferno.pdf",
+    "sha256": "7f03e7dbe2d5561c119c2433915f57c458ce70c9e0a7e569e792e26a20b108cc"
+  }
+]

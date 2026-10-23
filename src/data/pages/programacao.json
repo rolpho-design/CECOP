@@ -1,0 +1,326 @@
+{
+  "title": "programacao",
+  "texts": [
+    {
+      "id": "texto-001",
+      "label": "Atividades Presenciais • Dias e Horários",
+      "text": "Atividades Presenciais • Dias e Horários"
+    },
+    {
+      "id": "texto-002",
+      "label": "•",
+      "text": "•"
+    },
+    {
+      "id": "texto-003",
+      "label": "Portões abrem 45 min antes",
+      "text": "Portões abrem 45 min antes"
+    },
+    {
+      "id": "texto-004",
+      "label": "Programação Semanal",
+      "text": "Programação Semanal"
+    },
+    {
+      "id": "texto-005",
+      "label": "Atendimento fraterno aberto à comunidade por ordem de chegada. Não é necessário agendar. T",
+      "text": "Atendimento fraterno aberto à comunidade por ordem de chegada. Não é necessário agendar. Todos os atendimentos, passes energéticos e orientações espirituais são 100% gratuitos."
+    },
+    {
+      "id": "texto-006",
+      "label": "100% Gratuito",
+      "text": "100% Gratuito"
+    },
+    {
+      "id": "texto-007",
+      "label": "Sem Agendamento",
+      "text": "Sem Agendamento"
+    },
+    {
+      "id": "texto-008",
+      "label": "Fichas por Chegada",
+      "text": "Fichas por Chegada"
+    },
+    {
+      "id": "texto-009",
+      "label": "Portões 45m Antes",
+      "text": "Portões 45m Antes"
+    },
+    {
+      "id": "texto-010",
+      "label": "Atendimento Espiritual Aberto",
+      "text": "Atendimento Espiritual Aberto"
+    },
+    {
+      "id": "texto-011",
+      "label": "Reuniões Públicas de Passe e Cura",
+      "text": "Reuniões Públicas de Passe e Cura"
+    },
+    {
+      "id": "texto-012",
+      "label": "As reuniões são assistidas pela equipe de trabalhadores e médicos espirituais. Venha com m",
+      "text": "As reuniões são assistidas pela equipe de trabalhadores e médicos espirituais. Venha com mente pacificada e coração predisposto ao bem."
+    },
+    {
+      "id": "texto-014",
+      "label": "Atividades Complementares",
+      "text": "Atividades Complementares"
+    },
+    {
+      "id": "texto-015",
+      "label": "Estudos Doutrinários & Obras da Semana",
+      "text": "Estudos Doutrinários & Obras da Semana"
+    },
+    {
+      "id": "texto-016",
+      "label": "Conhecimento kardequiano, evangelização infanto-juvenil e manutenção da egrégora de luz.",
+      "text": "Conhecimento kardequiano, evangelização infanto-juvenil e manutenção da egrégora de luz."
+    },
+    {
+      "id": "texto-017",
+      "label": "Sábado",
+      "text": "Sábado"
+    },
+    {
+      "id": "texto-018",
+      "label": "15h00",
+      "text": "15h00"
+    },
+    {
+      "id": "texto-019",
+      "label": "ESDE & Juventude Espírita",
+      "text": "ESDE & Juventude Espírita"
+    },
+    {
+      "id": "texto-020",
+      "label": "Estudo Sistematizado da Doutrina Espírita (ESDE), Mocidade e Evangelização Infantil para c",
+      "text": "Estudo Sistematizado da Doutrina Espírita (ESDE), Mocidade e Evangelização Infantil para crianças a partir de 4 anos."
+    },
+    {
+      "id": "texto-021",
+      "label": "Turmas por faixa etária",
+      "text": "Turmas por faixa etária"
+    },
+    {
+      "id": "texto-022",
+      "label": "Inscrições gratuitas no portão",
+      "text": "Inscrições gratuitas no portão"
+    },
+    {
+      "id": "texto-023",
+      "label": "Biblioteca aberta para empréstimos",
+      "text": "Biblioteca aberta para empréstimos"
+    },
+    {
+      "id": "texto-024",
+      "label": "Aberto a famílias",
+      "text": "Aberto a famílias"
+    },
+    {
+      "id": "texto-025",
+      "label": "15h às 17h",
+      "text": "15h às 17h"
+    },
+    {
+      "id": "texto-026",
+      "label": "Seg • Qua • Sex",
+      "text": "Seg • Qua • Sex"
+    },
+    {
+      "id": "texto-027",
+      "label": "Privativo",
+      "text": "Privativo"
+    },
+    {
+      "id": "texto-028",
+      "label": "Manutenção Espiritual",
+      "text": "Manutenção Espiritual"
+    },
+    {
+      "id": "texto-029",
+      "label": "Trabalhos mediúnicos internos de desobsessão, sustentação vibratória da Casa e higienizaçã",
+      "text": "Trabalhos mediúnicos internos de desobsessão, sustentação vibratória da Casa e higienização fluídica dos ambientes."
+    },
+    {
+      "id": "texto-030",
+      "label": "Sem atendimento ao público externo",
+      "text": "Sem atendimento ao público externo"
+    },
+    {
+      "id": "texto-031",
+      "label": "Atividade restrita aos médiuns e trabalhadores cadastrados no quadro mediúnico da institui",
+      "text": "Atividade restrita aos médiuns e trabalhadores cadastrados no quadro mediúnico da instituição."
+    },
+    {
+      "id": "texto-032",
+      "label": "Sustentação espiritual",
+      "text": "Sustentação espiritual"
+    },
+    {
+      "id": "texto-033",
+      "label": "Interno",
+      "text": "Interno"
+    },
+    {
+      "id": "texto-034",
+      "label": "Domingo",
+      "text": "Domingo"
+    },
+    {
+      "id": "texto-035",
+      "label": "Manhã",
+      "text": "Manhã"
+    },
+    {
+      "id": "texto-036",
+      "label": "Ação Social & Amparo",
+      "text": "Ação Social & Amparo"
+    },
+    {
+      "id": "texto-037",
+      "label": "Triagem, empacotamento e distribuição de gêneros alimentícios, roupas higienizadas e apoio",
+      "text": "Triagem, empacotamento e distribuição de gêneros alimentícios, roupas higienizadas e apoio comunitário às famílias em vulnerabilidade."
+    },
+    {
+      "id": "texto-038",
+      "label": "Organização de cestas básicas",
+      "text": "Organização de cestas básicas"
+    },
+    {
+      "id": "texto-039",
+      "label": "Bazar fraterno beneficente",
+      "text": "Bazar fraterno beneficente"
+    },
+    {
+      "id": "texto-040",
+      "label": "Voluntariado aberto à comunidade",
+      "text": "Voluntariado aberto à comunidade"
+    },
+    {
+      "id": "texto-041",
+      "label": "Caridade em ação",
+      "text": "Caridade em ação"
+    },
+    {
+      "id": "texto-042",
+      "label": "09h às 12h",
+      "text": "09h às 12h"
+    },
+    {
+      "id": "texto-043",
+      "label": "Comunicado de Segurança, Transparência & Gratuidade",
+      "text": "Comunicado de Segurança, Transparência & Gratuidade"
+    },
+    {
+      "id": "texto-044",
+      "label": "A Casa",
+      "text": "A Casa"
+    },
+    {
+      "id": "texto-045",
+      "label": "não realiza agendamentos",
+      "text": "não realiza agendamentos"
+    },
+    {
+      "id": "texto-046",
+      "label": "por telefone, WhatsApp ou redes sociais. Todos os atendimentos são estritamente presenciai",
+      "text": "por telefone, WhatsApp ou redes sociais. Todos os atendimentos são estritamente presenciais por ordem de chegada no portão. Nunca forneça dados bancários nem pague valores por orações, velas, consultas ou nomes em preces."
+    },
+    {
+      "id": "texto-047",
+      "label": "“Dai de graça o que de graça recebestes” — Mateus 10:8",
+      "text": "“Dai de graça o que de graça recebestes” — Mateus 10:8"
+    },
+    {
+      "id": "texto-048",
+      "label": "Sem intermediários ou cobranças",
+      "text": "Sem intermediários ou cobranças"
+    },
+    {
+      "id": "texto-049",
+      "label": "Entrada por ordem de chegada",
+      "text": "Entrada por ordem de chegada"
+    },
+    {
+      "id": "texto-050",
+      "label": "Gratuidade absoluta",
+      "text": "Gratuidade absoluta"
+    },
+    {
+      "id": "texto-051",
+      "label": "Dúvidas Frequentes",
+      "text": "Dúvidas Frequentes"
+    },
+    {
+      "id": "texto-052",
+      "label": "Como se organizar para sua visita",
+      "text": "Como se organizar para sua visita"
+    },
+    {
+      "id": "texto-053",
+      "label": "Preciso chegar com quanto tempo de antecedência?",
+      "text": "Preciso chegar com quanto tempo de antecedência?"
+    },
+    {
+      "id": "texto-054",
+      "label": "Recomendamos chegar entre 45 e 30 minutos antes do início previsto para cada sessão. Os po",
+      "text": "Recomendamos chegar entre 45 e 30 minutos antes do início previsto para cada sessão. Os portões abrem exatamente 45 minutos antes para organização das filas, conferência da capacidade física e distribuição fraterna das fichas."
+    },
+    {
+      "id": "texto-055",
+      "label": "Posso levar parentes acamados ou pessoas com mobilidade reduzida?",
+      "text": "Posso levar parentes acamados ou pessoas com mobilidade reduzida?"
+    },
+    {
+      "id": "texto-056",
+      "label": "Sim. A Casa possui rampa de acesso suave e voluntários dedicados ao apoio na chegada. Avis",
+      "text": "Sim. A Casa possui rampa de acesso suave e voluntários dedicados ao apoio na chegada. Avise nossa equipe de recepção no portão para providenciarmos assento preferencial e acolhimento adequado."
+    },
+    {
+      "id": "texto-057",
+      "label": "É permitido levar crianças para o atendimento de Quinta-Feira?",
+      "text": "É permitido levar crianças para o atendimento de Quinta-Feira?"
+    },
+    {
+      "id": "texto-058",
+      "label": "Crianças que necessitem de tratamento de cura são bem-vindas e atendidas com todo o carinh",
+      "text": "Crianças que necessitem de tratamento de cura são bem-vindas e atendidas com todo o carinho maternal dos tarefeiros. Para a educação moral e infância em geral, recomendamos a Evangelização Infantil aos sábados às 15h."
+    },
+    {
+      "id": "texto-059",
+      "label": "Qual garrafa de água devo levar para fluidificação?",
+      "text": "Qual garrafa de água devo levar para fluidificação?"
+    },
+    {
+      "id": "texto-060",
+      "label": "Traga uma garrafa transparente com água potável e mineral (identificada com seu nome em fi",
+      "text": "Traga uma garrafa transparente com água potável e mineral (identificada com seu nome em fita adesiva, se desejar). Elas são depositadas na mesa de fluidificação antes do início da prece geral e retiradas ao término dos trabalhos."
+    },
+    {
+      "id": "texto-061",
+      "label": "Venha Conhecer a Nossa Casa",
+      "text": "Venha Conhecer a Nossa Casa"
+    },
+    {
+      "id": "texto-062",
+      "label": "Estamos localizados no coração do Bairro Tingui, em Curitiba. Consulte nosso mapa interati",
+      "text": "Estamos localizados no coração do Bairro Tingui, em Curitiba. Consulte nosso mapa interativo, paradas de ônibus próximas ou conheça a trajetória dos nossos obreiros de luz."
+    },
+    {
+      "id": "texto-063",
+      "label": "Como Chegar ao CECOP (Tingui)",
+      "text": "Como Chegar ao CECOP (Tingui)"
+    },
+    {
+      "id": "texto-064",
+      "label": "Conhecer Nossa História & Princípios",
+      "text": "Conhecer Nossa História & Princípios"
+    },
+    {
+      "id": "texto-065",
+      "label": "Voltar ao topo",
+      "text": "Voltar ao topo"
+    }
+  ],
+  "images": []
+}
