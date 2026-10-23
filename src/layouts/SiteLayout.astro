@@ -15,7 +15,7 @@ const fullAddress=`${site.address} — ${site.district} — ${site.city}/${site.
 <a href="#conteudo" class="skip-link">Pular para o conteúdo</a>
 <Fragment set:html={markActiveNavigation(renderPage('header'), Astro.url.pathname)}/>
 <div id="conteudo" tabindex="-1"></div>
-<div data-notices class="max-w-[1200px] mx-auto px-6 empty:hidden pt-28"><Fragment set:html={renderNotices(notices)}/></div>
+<div data-notices class="site-notices"><Fragment set:html={renderNotices(notices)}/></div>
 <slot/>
 
 <Fragment set:html={renderPage('footer')}/>

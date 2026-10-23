@@ -4,3 +4,16 @@
 html{scroll-padding-top:7rem}body{margin:0} [hidden]{display:none!important} a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #6B8CAE!important;outline-offset:4px} .skip-link{position:fixed;top:-6rem;left:1rem;z-index:100;background:white;padding:1rem}.skip-link:focus{top:1rem} [data-calendar] h3{font-family:Merriweather,serif} @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
 
 header nav a[aria-current="page"]{background:#2d3a8c;color:#fff;font-weight:600;border-radius:9999px;box-shadow:0 1px 2px #0000000d}#mobile-nav a{padding-left:1rem;padding-right:1rem}
+
+/* Compact announcements sit directly between the fixed header and page hero. */
+.site-notices:empty{display:none}
+.site-notices:not(:empty){padding-top:5rem}
+.site-notices:not(:empty)+main{padding-top:0}
+.site-notice{background:#e8edf8;color:#243778;border-bottom:1px solid #2d3a8c1a}
+.site-notice+.site-notice{border-top:1px solid #2d3a8c0d}
+.site-notice-inner{max-width:1200px;margin-inline:auto;padding:12px 24px;display:flex;align-items:flex-start;gap:12px}
+.site-notice-icon{font-size:20px;line-height:24px;flex-shrink:0}
+.site-notice-copy{display:flex;align-items:baseline;flex-wrap:wrap;gap:2px 12px;min-width:0;font-family:'DM Sans',sans-serif;font-size:14px;line-height:24px;overflow-wrap:anywhere}
+.site-notice-copy h2{margin:0;font:inherit;font-weight:700}
+.site-notice-copy p{margin:0;font:inherit}
+@media(max-width:639px){.site-notice-inner{padding:12px 20px}.site-notice-copy{display:block}.site-notice-copy p{margin-top:2px}}
